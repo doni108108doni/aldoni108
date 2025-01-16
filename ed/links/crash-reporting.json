@@ -1,0 +1,39 @@
+{
+  "spec": {
+    "title": "Crash Reporting",
+    "url": "https://wicg.github.io/crash-reporting/"
+  },
+  "links": {
+    "rawlinks": {
+      "http://www.w3.org/community/": {},
+      "https://w3c.github.io/reporting/": {
+        "anchors": [
+          "security",
+          "privacy"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/community/about/agreements/cla/": {},
+      "https://www.w3.org/community/wicg/": {}
+    },
+    "autolinks": {
+      "https://w3c.github.io/reporting/": {
+        "anchors": [
+          "report",
+          "report-type",
+          "reportbody",
+          "report-body",
+          "endpoint"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed",
+          "Default",
+          "idl-object",
+          "idl-DOMString"
+        ]
+      }
+    }
+  }
+}
