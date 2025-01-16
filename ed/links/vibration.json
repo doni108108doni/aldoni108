@@ -1,0 +1,38 @@
+{
+  "spec": {
+    "title": "Vibration API (Second Edition)",
+    "url": "https://w3c.github.io/vibration/"
+  },
+  "links": {
+    "https://www.w3.org/TR/": [],
+    "https://www.w3.org/groups/wg/das": [],
+    "https://www.w3.org/Consortium/Patent-Policy/": [
+      "def-essential",
+      "sec-Disclosure"
+    ],
+    "https://www.w3.org/groups/wg/das/ipr": [],
+    "https://www.w3.org/2021/Process-20211102/": [],
+    "https://datatracker.ietf.org/doc/html/bcp14": [],
+    "https://webidl.spec.whatwg.org/": [
+      "idl-unsigned-long",
+      "idl-sequence",
+      "idl-boolean",
+      "this"
+    ],
+    "https://html.spec.whatwg.org/": [
+      "navigator",
+      "concept-relevant-global",
+      "global-object",
+      "sticky-activation",
+      "top-level-browsing-context"
+    ],
+    "https://w3c.github.io/page-visibility/": [
+      "dfn-steps-to-determine-the-visibility-state",
+      "dfn-visibility-states"
+    ],
+    "https://www.w3.org/TR/page-visibility-2/": [],
+    "https://www.rfc-editor.org/rfc/rfc2119": [],
+    "https://www.rfc-editor.org/rfc/rfc8174": [],
+    "https://notifications.spec.whatwg.org/": []
+  }
+}

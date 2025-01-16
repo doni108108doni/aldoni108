@@ -1,0 +1,39 @@
+From 0a84d1e020cfcdfd18c70f75c52bb5909083c1cc Mon Sep 17 00:00:00 2001
+From: Francois Daoust <fd@tidoust.net>
+Date: Fri, 24 Sep 2021 10:09:13 +0200
+Subject: [PATCH] Fix SVG.idl
+
+HTMLHyperlinkElementUtils: https://github.com/w3c/svgwg/issues/312
+---
+ ed/idl/SVG.idl | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+diff --git a/ed/idl/SVG.idl b/ed/idl/SVG.idl
+index 9ce619d1e..11a5c7c29 100644
+--- a/ed/idl/SVG.idl
++++ b/ed/idl/SVG.idl
+@@ -673,7 +673,20 @@ interface SVGAElement : SVGGraphicsElement {
+ };
+ 
+ SVGAElement includes SVGURIReference;
+-SVGAElement includes HTMLHyperlinkElementUtils;
++
++// Inline HTMLHyperlinkElementUtils except href, which conflicts.
++partial interface SVGAElement {
++  readonly attribute USVString origin;
++  [CEReactions] attribute USVString protocol;
++  [CEReactions] attribute USVString username;
++  [CEReactions] attribute USVString password;
++  [CEReactions] attribute USVString host;
++  [CEReactions] attribute USVString hostname;
++  [CEReactions] attribute USVString port;
++  [CEReactions] attribute USVString pathname;
++  [CEReactions] attribute USVString search;
++  [CEReactions] attribute USVString hash;
++};
+ 
+ [Exposed=Window]
+ interface SVGViewElement : SVGElement {};
+-- 
+2.33.0.windows.2
+

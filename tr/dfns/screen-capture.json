@@ -1,0 +1,1356 @@
+{
+  "spec": {
+    "title": "Screen Capture",
+    "url": "https://www.w3.org/TR/screen-capture/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-user-agents",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-user-agents",
+      "linkingText": [
+        "user agents",
+        "user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://www.w3.org/TR/screen-capture/#conformance",
+        "title": "Conformance",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-display-surface",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-display-surface",
+      "linkingText": [
+        "display surface",
+        "display surfaces"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-monitor",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-monitor",
+      "linkingText": [
+        "monitor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-windows",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-windows",
+      "linkingText": [
+        "windows",
+        "window"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-browser",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-browser",
+      "linkingText": [
+        "browser"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-logical-display-surfaces",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-logical-display-surfaces",
+      "linkingText": [
+        "logical display surfaces",
+        "logical display surface"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-visible-display-surface",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-visible-display-surface",
+      "linkingText": [
+        "visible display surface"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-source-pixel-ratio",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-source-pixel-ratio",
+      "linkingText": [
+        "source pixel ratio"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-devicechange",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-devicechange",
+      "linkingText": [
+        "devicechange"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/screen-capture/#terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-mediadevices",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediadevices",
+      "linkingText": [
+        "MediaDevices"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mediadevices-additions",
+        "href": "https://www.w3.org/TR/screen-capture/#mediadevices-additions",
+        "title": "MediaDevices Additions",
+        "number": "5.1"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-mediadevices-getdisplaymedia",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediadevices-getdisplaymedia",
+      "linkingText": [
+        "getDisplayMedia()",
+        "getDisplayMedia(constraints)"
+      ],
+      "localLinkingText": [
+        "MediaDevices.getDisplayMedia",
+        "MediaDevices.getDisplayMedia()",
+        "getDisplayMedia"
+      ],
+      "type": "method",
+      "for": [
+        "MediaDevices"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mediadevices-additions",
+        "href": "https://www.w3.org/TR/screen-capture/#mediadevices-additions",
+        "title": "MediaDevices Additions",
+        "number": "5.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-width",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-height",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-framerate",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-framerate",
+      "linkingText": [
+        "frameRate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-aspectratio",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-aspectratio",
+      "linkingText": [
+        "aspectRatio"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-resizemode",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-resizemode",
+      "linkingText": [
+        "resizeMode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-displaysurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-displaysurface",
+      "linkingText": [
+        "displaySurface"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-logicalsurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-logicalsurface",
+      "linkingText": [
+        "logicalSurface"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-cursor",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-cursor",
+      "linkingText": [
+        "cursor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-restrictownaudio",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-restrictownaudio",
+      "linkingText": [
+        "restrictOwnAudio"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-own-audio-restriction",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-own-audio-restriction",
+      "linkingText": [
+        "own audio restriction"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-suppresslocalaudioplayback",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-suppresslocalaudioplayback",
+      "linkingText": [
+        "suppressLocalAudioPlayback"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-local-audio-playback-suppression",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-local-audio-playback-suppression",
+      "linkingText": [
+        "local audio playback suppression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-floor-value",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-floor-value",
+      "linkingText": [
+        "floor value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "downscaling-and-frame-decimation",
+        "href": "https://www.w3.org/TR/screen-capture/#downscaling-and-frame-decimation",
+        "title": "Downscaling and Frame Decimation",
+        "number": "5.4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-selfcapturepreferenceenum",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-selfcapturepreferenceenum",
+      "linkingText": [
+        "SelfCapturePreferenceEnum"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "selfcapturepreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#selfcapturepreferenceenum",
+        "title": "SelfCapturePreferenceEnum",
+        "number": "5.4.2"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "idl-def-SelfCapturePreferenceEnum.include",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-SelfCapturePreferenceEnum.include",
+      "linkingText": [
+        "include"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "SelfCapturePreferenceEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "selfcapturepreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#selfcapturepreferenceenum",
+        "title": "SelfCapturePreferenceEnum",
+        "number": "5.4.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-SelfCapturePreferenceEnum.exclude",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-SelfCapturePreferenceEnum.exclude",
+      "linkingText": [
+        "exclude"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "SelfCapturePreferenceEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "selfcapturepreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#selfcapturepreferenceenum",
+        "title": "SelfCapturePreferenceEnum",
+        "number": "5.4.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-systemaudiopreferenceenum",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-systemaudiopreferenceenum",
+      "linkingText": [
+        "SystemAudioPreferenceEnum"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "systemaudiopreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#systemaudiopreferenceenum",
+        "title": "SystemAudioPreferenceEnum",
+        "number": "5.4.3"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "idl-def-SystemAudioPreferenceEnum.include",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-SystemAudioPreferenceEnum.include",
+      "linkingText": [
+        "include"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "SystemAudioPreferenceEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "systemaudiopreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#systemaudiopreferenceenum",
+        "title": "SystemAudioPreferenceEnum",
+        "number": "5.4.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-SystemAudioPreferenceEnum.exclude",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-SystemAudioPreferenceEnum.exclude",
+      "linkingText": [
+        "exclude"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "SystemAudioPreferenceEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "systemaudiopreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#systemaudiopreferenceenum",
+        "title": "SystemAudioPreferenceEnum",
+        "number": "5.4.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-surfaceswitchingpreferenceenum",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-surfaceswitchingpreferenceenum",
+      "linkingText": [
+        "SurfaceSwitchingPreferenceEnum"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "surfaceswitchingpreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#surfaceswitchingpreferenceenum",
+        "title": "SurfaceSwitchingPreferenceEnum",
+        "number": "5.4.4"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "idl-def-SurfaceSwitchingPreferenceEnum.include",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-SurfaceSwitchingPreferenceEnum.include",
+      "linkingText": [
+        "include"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "SurfaceSwitchingPreferenceEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "surfaceswitchingpreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#surfaceswitchingpreferenceenum",
+        "title": "SurfaceSwitchingPreferenceEnum",
+        "number": "5.4.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-SurfaceSwitchingPreferenceEnum.exclude",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-SurfaceSwitchingPreferenceEnum.exclude",
+      "linkingText": [
+        "exclude"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "SurfaceSwitchingPreferenceEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "surfaceswitchingpreferenceenum",
+        "href": "https://www.w3.org/TR/screen-capture/#surfaceswitchingpreferenceenum",
+        "title": "SurfaceSwitchingPreferenceEnum",
+        "number": "5.4.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-displaymediastreamconstraints",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamconstraints",
+      "linkingText": [
+        "DisplayMediaStreamConstraints"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "displaymediastreamconstraints",
+        "href": "https://www.w3.org/TR/screen-capture/#displaymediastreamconstraints",
+        "title": "DisplayMediaStreamConstraints",
+        "number": "5.4.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-displaymediastreamconstraints-video",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamconstraints-video",
+      "linkingText": [
+        "video"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DisplayMediaStreamConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-displaymediastreamconstraints-members",
+        "href": "https://www.w3.org/TR/screen-capture/#dictionary-displaymediastreamconstraints-members",
+        "title": "Dictionary DisplayMediaStreamConstraints Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-displaymediastreamconstraints-audio",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamconstraints-audio",
+      "linkingText": [
+        "audio"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DisplayMediaStreamConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-displaymediastreamconstraints-members",
+        "href": "https://www.w3.org/TR/screen-capture/#dictionary-displaymediastreamconstraints-members",
+        "title": "Dictionary DisplayMediaStreamConstraints Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-displaymediastreamconstraints-selfbrowsersurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamconstraints-selfbrowsersurface",
+      "linkingText": [
+        "selfBrowserSurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DisplayMediaStreamConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-displaymediastreamconstraints-members",
+        "href": "https://www.w3.org/TR/screen-capture/#dictionary-displaymediastreamconstraints-members",
+        "title": "Dictionary DisplayMediaStreamConstraints Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-displaymediastreamconstraints-systemaudio",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamconstraints-systemaudio",
+      "linkingText": [
+        "systemAudio"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DisplayMediaStreamConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-displaymediastreamconstraints-members",
+        "href": "https://www.w3.org/TR/screen-capture/#dictionary-displaymediastreamconstraints-members",
+        "title": "Dictionary DisplayMediaStreamConstraints Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-displaymediastreamconstraints-surfaceswitching",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamconstraints-surfaceswitching",
+      "linkingText": [
+        "surfaceSwitching"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DisplayMediaStreamConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-displaymediastreamconstraints-members",
+        "href": "https://www.w3.org/TR/screen-capture/#dictionary-displaymediastreamconstraints-members",
+        "title": "Dictionary DisplayMediaStreamConstraints Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksupportedconstraints-displaysurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-displaysurface",
+      "linkingText": [
+        "displaySurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSupportedConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksupportedconstraints",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
+        "title": "Extensions to MediaTrackSupportedConstraints",
+        "number": "5.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksupportedconstraints-logicalsurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-logicalsurface",
+      "linkingText": [
+        "logicalSurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSupportedConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksupportedconstraints",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
+        "title": "Extensions to MediaTrackSupportedConstraints",
+        "number": "5.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksupportedconstraints-cursor",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-cursor",
+      "linkingText": [
+        "cursor"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSupportedConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksupportedconstraints",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
+        "title": "Extensions to MediaTrackSupportedConstraints",
+        "number": "5.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksupportedconstraints-restrictownaudio",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-restrictownaudio",
+      "linkingText": [
+        "restrictOwnAudio"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSupportedConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksupportedconstraints",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
+        "title": "Extensions to MediaTrackSupportedConstraints",
+        "number": "5.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksupportedconstraints-suppresslocalaudioplayback",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-suppresslocalaudioplayback",
+      "linkingText": [
+        "suppressLocalAudioPlayback"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSupportedConstraints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksupportedconstraints",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
+        "title": "Extensions to MediaTrackSupportedConstraints",
+        "number": "5.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackconstraintset-displaysurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackconstraintset-displaysurface",
+      "linkingText": [
+        "displaySurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackConstraintSet"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackconstraintset",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
+        "title": "Extensions to MediaTrackConstraintSet",
+        "number": "5.4.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackconstraintset-logicalsurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackconstraintset-logicalsurface",
+      "linkingText": [
+        "logicalSurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackConstraintSet"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackconstraintset",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
+        "title": "Extensions to MediaTrackConstraintSet",
+        "number": "5.4.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackconstraintset-cursor",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackconstraintset-cursor",
+      "linkingText": [
+        "cursor"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackConstraintSet"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackconstraintset",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
+        "title": "Extensions to MediaTrackConstraintSet",
+        "number": "5.4.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackconstraintset-restrictownaudio",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackconstraintset-restrictownaudio",
+      "linkingText": [
+        "restrictOwnAudio"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackConstraintSet"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackconstraintset",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
+        "title": "Extensions to MediaTrackConstraintSet",
+        "number": "5.4.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackconstraintset-suppresslocalaudioplayback",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackconstraintset-suppresslocalaudioplayback",
+      "linkingText": [
+        "suppressLocalAudioPlayback"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackConstraintSet"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackconstraintset",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
+        "title": "Extensions to MediaTrackConstraintSet",
+        "number": "5.4.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksettings-displaysurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksettings-displaysurface",
+      "linkingText": [
+        "displaySurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSettings"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksettings",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
+        "title": "Extensions to MediaTrackSettings",
+        "number": "5.4.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksettings-logicalsurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksettings-logicalsurface",
+      "linkingText": [
+        "logicalSurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSettings"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksettings",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
+        "title": "Extensions to MediaTrackSettings",
+        "number": "5.4.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksettings-cursor",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksettings-cursor",
+      "linkingText": [
+        "cursor"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSettings"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksettings",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
+        "title": "Extensions to MediaTrackSettings",
+        "number": "5.4.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatracksettings-restrictownaudio",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksettings-restrictownaudio",
+      "linkingText": [
+        "restrictOwnAudio"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackSettings"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatracksettings",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
+        "title": "Extensions to MediaTrackSettings",
+        "number": "5.4.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackcapabilities-displaysurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackcapabilities-displaysurface",
+      "linkingText": [
+        "displaySurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackCapabilities"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackcapabilities",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackcapabilities",
+        "title": "Extensions to MediaTrackCapabilities",
+        "number": "5.4.9"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackcapabilities-logicalsurface",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackcapabilities-logicalsurface",
+      "linkingText": [
+        "logicalSurface"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackCapabilities"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackcapabilities",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackcapabilities",
+        "title": "Extensions to MediaTrackCapabilities",
+        "number": "5.4.9"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-mediatrackcapabilities-cursor",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-mediatrackcapabilities-cursor",
+      "linkingText": [
+        "cursor"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaTrackCapabilities"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-mediatrackcapabilities",
+        "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackcapabilities",
+        "title": "Extensions to MediaTrackCapabilities",
+        "number": "5.4.9"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-displaycapturesurfacetype",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaycapturesurfacetype",
+      "linkingText": [
+        "DisplayCaptureSurfaceType"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "displaycapturesurfacetype",
+        "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
+        "title": "DisplayCaptureSurfaceType",
+        "number": "5.4.10"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "idl-def-DisplayCaptureSurfaceType.monitor",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-DisplayCaptureSurfaceType.monitor",
+      "linkingText": [
+        "monitor"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "DisplayCaptureSurfaceType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "displaycapturesurfacetype",
+        "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
+        "title": "DisplayCaptureSurfaceType",
+        "number": "5.4.10"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-DisplayCaptureSurfaceType.window",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-DisplayCaptureSurfaceType.window",
+      "linkingText": [
+        "window"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "DisplayCaptureSurfaceType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "displaycapturesurfacetype",
+        "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
+        "title": "DisplayCaptureSurfaceType",
+        "number": "5.4.10"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-DisplayCaptureSurfaceType.browser",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-DisplayCaptureSurfaceType.browser",
+      "linkingText": [
+        "browser"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "DisplayCaptureSurfaceType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "displaycapturesurfacetype",
+        "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
+        "title": "DisplayCaptureSurfaceType",
+        "number": "5.4.10"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-cursorcaptureconstraint",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-cursorcaptureconstraint",
+      "linkingText": [
+        "CursorCaptureConstraint"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cursorcaptureconstraint",
+        "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
+        "title": "CursorCaptureConstraint",
+        "number": "5.4.11"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "idl-def-CursorCaptureConstraint.never",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-CursorCaptureConstraint.never",
+      "linkingText": [
+        "never"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "CursorCaptureConstraint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cursorcaptureconstraint",
+        "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
+        "title": "CursorCaptureConstraint",
+        "number": "5.4.11"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-CursorCaptureConstraint.always",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-CursorCaptureConstraint.always",
+      "linkingText": [
+        "always"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "CursorCaptureConstraint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cursorcaptureconstraint",
+        "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
+        "title": "CursorCaptureConstraint",
+        "number": "5.4.11"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-CursorCaptureConstraint.motion",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-CursorCaptureConstraint.motion",
+      "linkingText": [
+        "motion"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "CursorCaptureConstraint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cursorcaptureconstraint",
+        "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
+        "title": "CursorCaptureConstraint",
+        "number": "5.4.11"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-display-capture-feature",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-display-capture-feature",
+      "linkingText": [
+        "display-capture-feature",
+        "\"display-capture\""
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-integration",
+        "href": "https://www.w3.org/TR/screen-capture/#permissions-policy-integration",
+        "title": "Permissions Policy Integration",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-active-user-consent",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-active-user-consent",
+      "linkingText": [
+        "Active user consent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "active-user-consent",
+        "href": "https://www.w3.org/TR/screen-capture/#active-user-consent",
+        "title": "Active User Consent",
+        "number": "9.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-elevated-permissions",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-elevated-permissions",
+      "linkingText": [
+        "elevated permissions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "elevated-permissions",
+        "href": "https://www.w3.org/TR/screen-capture/#elevated-permissions",
+        "title": "Elevated Permissions",
+        "number": "9.2.2"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

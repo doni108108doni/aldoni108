@@ -1,0 +1,304 @@
+{
+  "spec": {
+    "title": "Media Queries Level 5",
+    "url": "https://drafts.csswg.org/mediaqueries-5/"
+  },
+  "properties": {},
+  "atrules": {
+    "@custom-media": {
+      "value": "@custom-media <extension-name> [ <media-query-list> | true | false ] ;",
+      "descriptors": []
+    },
+    "@media": {
+      "descriptors": [
+        {
+          "name": "width",
+          "for": "@media",
+          "value": "<length>",
+          "type": "range"
+        },
+        {
+          "name": "height",
+          "for": "@media",
+          "value": "<length>",
+          "type": "range"
+        },
+        {
+          "name": "aspect-ratio",
+          "for": "@media",
+          "value": "<ratio>",
+          "type": "range"
+        },
+        {
+          "name": "orientation",
+          "for": "@media",
+          "value": "portrait | landscape",
+          "type": "discrete"
+        },
+        {
+          "name": "overflow-block",
+          "for": "@media",
+          "value": "none | scroll | paged",
+          "type": "discrete"
+        },
+        {
+          "name": "overflow-inline",
+          "for": "@media",
+          "value": "none | scroll",
+          "type": "discrete"
+        },
+        {
+          "name": "horizontal-viewport-segments",
+          "for": "@media",
+          "value": "<integer>",
+          "type": "range"
+        },
+        {
+          "name": "vertical-viewport-segments",
+          "for": "@media",
+          "value": "<integer>",
+          "type": "range"
+        },
+        {
+          "name": "display-mode",
+          "for": "@media",
+          "value": "fullscreen | standalone | minimal-ui | browser",
+          "type": "discrete"
+        },
+        {
+          "name": "resolution",
+          "for": "@media",
+          "value": "<resolution> | infinite",
+          "type": "range"
+        },
+        {
+          "name": "scan",
+          "for": "@media",
+          "value": "interlace | progressive",
+          "type": "discrete"
+        },
+        {
+          "name": "grid",
+          "for": "@media",
+          "value": "<mq-boolean>",
+          "type": "discrete"
+        },
+        {
+          "name": "update",
+          "for": "@media",
+          "value": "none | slow | fast",
+          "type": "discrete"
+        },
+        {
+          "name": "environment-blending",
+          "for": "@media",
+          "value": "opaque | additive | subtractive",
+          "type": "discrete"
+        },
+        {
+          "name": "color",
+          "for": "@media",
+          "value": "<integer>",
+          "type": "range"
+        },
+        {
+          "name": "color-index",
+          "for": "@media",
+          "value": "<integer>",
+          "type": "range"
+        },
+        {
+          "name": "monochrome",
+          "for": "@media",
+          "value": "<integer>",
+          "type": "range"
+        },
+        {
+          "name": "color-gamut",
+          "for": "@media",
+          "value": "srgb | p3 | rec2020",
+          "type": "discrete"
+        },
+        {
+          "name": "dynamic-range",
+          "for": "@media",
+          "value": "standard | high",
+          "type": "discrete"
+        },
+        {
+          "name": "inverted-colors",
+          "for": "@media",
+          "value": "none | inverted",
+          "type": "discrete"
+        },
+        {
+          "name": "pointer",
+          "for": "@media",
+          "value": "none | coarse | fine",
+          "type": "discrete"
+        },
+        {
+          "name": "hover",
+          "for": "@media",
+          "value": "none | hover",
+          "type": "discrete"
+        },
+        {
+          "name": "any-pointer",
+          "for": "@media",
+          "value": "none | coarse | fine",
+          "type": "discrete"
+        },
+        {
+          "name": "any-hover",
+          "for": "@media",
+          "value": "none | hover",
+          "type": "discrete"
+        },
+        {
+          "name": "nav-controls",
+          "for": "@media",
+          "value": "none | back",
+          "type": "discrete"
+        },
+        {
+          "name": "video-color-gamut",
+          "for": "@media",
+          "value": "srgb | p3 | rec2020",
+          "type": "discrete"
+        },
+        {
+          "name": "video-dynamic-range",
+          "for": "@media",
+          "value": "standard | high",
+          "type": "discrete"
+        },
+        {
+          "name": "scripting",
+          "for": "@media",
+          "value": "none | initial-only | enabled",
+          "type": "discrete"
+        },
+        {
+          "name": "prefers-reduced-motion",
+          "for": "@media",
+          "value": "no-preference | reduce",
+          "type": "discrete"
+        },
+        {
+          "name": "prefers-reduced-transparency",
+          "for": "@media",
+          "value": "no-preference | reduce",
+          "type": "discrete"
+        },
+        {
+          "name": "prefers-contrast",
+          "for": "@media",
+          "value": "no-preference | less | more | custom",
+          "type": "discrete"
+        },
+        {
+          "name": "forced-colors",
+          "for": "@media",
+          "value": "none | active",
+          "type": "discrete"
+        },
+        {
+          "name": "prefers-color-scheme",
+          "for": "@media",
+          "value": "light | dark",
+          "type": "discrete"
+        },
+        {
+          "name": "prefers-reduced-data",
+          "for": "@media",
+          "value": "no-preference | reduce",
+          "type": "discrete"
+        },
+        {
+          "name": "device-width",
+          "for": "@media",
+          "value": "<length>",
+          "type": "range"
+        },
+        {
+          "name": "device-height",
+          "for": "@media",
+          "value": "<length>",
+          "type": "range"
+        },
+        {
+          "name": "device-aspect-ratio",
+          "for": "@media",
+          "value": "<ratio>",
+          "type": "range"
+        }
+      ]
+    }
+  },
+  "valuespaces": {
+    "<media-query-list>": {
+      "prose": "To parse a <media-query-list> production, parse a comma-separated list of component values, then parse each entry in the returned list as a <media-query>. Its value is the list of <media-query>s so produced."
+    },
+    "<mq-boolean>": {
+      "prose": "The <mq-boolean> value type is an <integer> with the value 0 or 1. Any other integer value is invalid. Note that -0 is always equivalent to 0 in CSS, and so is also accepted as a valid <mq-boolean> value."
+    },
+    "<media-query>": {
+      "value": "<media-condition> | [ not | only ]? <media-type> [ and <media-condition-without-or> ]?"
+    },
+    "<media-type>": {
+      "value": "<ident>"
+    },
+    "<media-condition>": {
+      "value": "<media-not> | <media-in-parens> [ <media-and>* | <media-or>* ]"
+    },
+    "<media-condition-without-or>": {
+      "value": "<media-not> | <media-in-parens> <media-and>*"
+    },
+    "<media-not>": {
+      "value": "not <media-in-parens>"
+    },
+    "<media-and>": {
+      "value": "and <media-in-parens>"
+    },
+    "<media-or>": {
+      "value": "or <media-in-parens>"
+    },
+    "<media-in-parens>": {
+      "value": "( <media-condition> ) | <media-feature> | <general-enclosed>"
+    },
+    "<media-feature>": {
+      "value": "( [ <mf-plain> | <mf-boolean> | <mf-range> ] )"
+    },
+    "<mf-plain>": {
+      "value": "<mf-name> : <mf-value>"
+    },
+    "<mf-boolean>": {
+      "value": "<mf-name>"
+    },
+    "<mf-range>": {
+      "value": "<mf-name> <mf-comparison> <mf-value> | <mf-value> <mf-comparison> <mf-name> | <mf-value> <mf-lt> <mf-name> <mf-lt> <mf-value> | <mf-value> <mf-gt> <mf-name> <mf-gt> <mf-value>"
+    },
+    "<mf-name>": {
+      "value": "<ident>"
+    },
+    "<mf-value>": {
+      "value": "<number> | <dimension> | <ident> | <ratio>"
+    },
+    "<mf-lt>": {
+      "value": "'<' '='?"
+    },
+    "<mf-gt>": {
+      "value": "'>' '='?"
+    },
+    "<mf-eq>": {
+      "value": "'='"
+    },
+    "<mf-comparison>": {
+      "value": "<mf-lt> | <mf-gt> | <mf-eq>"
+    },
+    "<general-enclosed>": {
+      "value": "[ <function-token> <any-value>? ) ] | [ ( <any-value>? ) ]"
+    }
+  }
+}

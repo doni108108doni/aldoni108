@@ -1,0 +1,55 @@
+{
+  "spec": {
+    "title": "CSS Line Grid Module Level 1",
+    "url": "https://www.w3.org/TR/css-line-grid-1/"
+  },
+  "properties": {
+    "line-grid": {
+      "name": "line-grid",
+      "value": "match-parent | create",
+      "initial": "match-parent",
+      "appliesTo": "block containers",
+      "inherited": "no",
+      "media": "visual",
+      "computedValue": "as specified",
+      "percentages": "N/A",
+      "animatable": "no",
+      "styleDeclaration": [
+        "line-grid",
+        "lineGrid"
+      ]
+    },
+    "line-snap": {
+      "name": "line-snap",
+      "value": "none | baseline | contain",
+      "initial": "none",
+      "appliesTo": "all elements",
+      "inherited": "yes",
+      "media": "visual",
+      "computedValue": "as specified",
+      "percentages": "N/A",
+      "animatable": "no",
+      "styleDeclaration": [
+        "line-snap",
+        "lineSnap"
+      ]
+    },
+    "box-snap": {
+      "name": "box-snap",
+      "value": "none | block-start | block-end | center | first-baseline | last-baseline",
+      "initial": "none",
+      "appliesTo": "block-level boxes and internal table elements except table cells",
+      "inherited": "yes",
+      "media": "visual",
+      "computedValue": "as specified",
+      "percentages": "N/A",
+      "animatable": "no",
+      "styleDeclaration": [
+        "box-snap",
+        "boxSnap"
+      ]
+    }
+  },
+  "atrules": {},
+  "valuespaces": {}
+}

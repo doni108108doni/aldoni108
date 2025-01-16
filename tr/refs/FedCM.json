@@ -1,0 +1,124 @@
+{
+  "spec": {
+    "title": "Federated Credential Management API",
+    "url": "https://fedidcg.github.io/FedCM/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "CM",
+        "url": "https://w3c.github.io/webappsec-credential-management/"
+      },
+      {
+        "name": "CREDENTIAL-MANAGEMENT-1",
+        "url": "https://w3c.github.io/webappsec-credential-management/"
+      },
+      {
+        "name": "CSP",
+        "url": "https://w3c.github.io/webappsec-csp/"
+      },
+      {
+        "name": "CSP3",
+        "url": "https://www.w3.org/TR/CSP3/"
+      },
+      {
+        "name": "CSS-COLOR-4",
+        "url": "https://drafts.csswg.org/css-color/"
+      },
+      {
+        "name": "CSS-COLOR-5",
+        "url": "https://drafts.csswg.org/css-color-5/"
+      },
+      {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "MIMESNIFF",
+        "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
+        "name": "OIDC-Connect-Core",
+        "url": "https://openid.net/specs/openid-connect-core-1_0.html"
+      },
+      {
+        "name": "PERMISSIONS-POLICY",
+        "url": "https://w3c.github.io/webappsec-permissions-policy"
+      },
+      {
+        "name": "PRIVACY-THREAT-MODEL",
+        "url": "https://w3cping.github.io/privacy-threat-model/"
+      },
+      {
+        "name": "REFERRER-POLICY-1",
+        "url": "http://www.w3.org/TR/referrer-policy/"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "RFC6973",
+        "url": "https://www.rfc-editor.org/rfc/rfc6973"
+      },
+      {
+        "name": "RFC9110",
+        "url": "https://www.rfc-editor.org/rfc/rfc9110"
+      },
+      {
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "Front-Channel-Logout",
+        "url": "https://openid.net/specs/openid-connect-frontchannel-1_0.html"
+      },
+      {
+        "name": "Identity-Use-Cases-in-Browser-Catalog",
+        "url": "https://datatracker.ietf.org/doc/html/draft-bertocci-identity-in-browser-00"
+      },
+      {
+        "name": "JWT",
+        "url": "https://datatracker.ietf.org/doc/html/rfc7519"
+      },
+      {
+        "name": "PRIVACY-MODEL",
+        "url": "https://github.com/michaelkleber/privacy-model"
+      },
+      {
+        "name": "PSL-PROBLEMS",
+        "url": "https://github.com/sleevi/psl-problems"
+      },
+      {
+        "name": "RFC7258",
+        "url": "https://datatracker.ietf.org/doc/html/rfc7258"
+      },
+      {
+        "name": "SAML-Glossary",
+        "url": "https://docs.oasis-open.org/security/saml/v2.0/saml-glossary-2.0-os.pdf"
+      },
+      {
+        "name": "UNSANCTIONED-TRACKING",
+        "url": "http://www.w3.org/2001/tag/doc/unsanctioned-tracking/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "spec": {
+    "title": "CSS Shadow Parts",
+    "url": "https://www.w3.org/TR/css-shadow-parts-1/"
+  },
+  "properties": {},
+  "atrules": {},
+  "valuespaces": {
+    "<::part()>": {
+      "value": "::part( <ident> )"
+    }
+  }
+}

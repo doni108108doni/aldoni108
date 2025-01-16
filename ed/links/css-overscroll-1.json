@@ -1,0 +1,84 @@
+{
+  "spec": {
+    "title": "CSS Overscroll Behavior Module Level 1",
+    "url": "https://drafts.csswg.org/css-overscroll-1/"
+  },
+  "links": {
+    "https://drafts.csswg.org/css-overflow-3/": [
+      "scroll-container",
+      "scrollport",
+      "overflow"
+    ],
+    "https://www.w3.org/TR/CSS/": [
+      "future-proofing",
+      "unstable",
+      "proprietary-extension"
+    ],
+    "https://github.com/w3c/csswg-drafts/issues": [],
+    "https://lists.w3.org/Archives/Public/public-css-archive/": [],
+    "https://lists.w3.org/Archives/Public/www-style/": [],
+    "https://www.w3.org/2021/Process-20211102/": [],
+    "https://drafts.csswg.org/css-display-3/": [
+      "containing-block-chain",
+      "initial-containing-block"
+    ],
+    "https://dom.spec.whatwg.org/": [
+      "dom-event-preventdefault"
+    ],
+    "https://www.w3.org/TR/CSS2/": [
+      "property-defs"
+    ],
+    "https://www.w3.org/TR/css-values-3/": [
+      "value-defs"
+    ],
+    "https://drafts.csswg.org/css-values-4/": [
+      "css-wide-keywords",
+      "comb-one",
+      "mult-num-range"
+    ],
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior": [],
+    "https://www.w3.org/TR/css-values/": [
+      "value-defs",
+      "percentages"
+    ],
+    "https://www.w3.org/TR/css-cascade/": [
+      "initial-values",
+      "applies-to",
+      "inherited-property",
+      "computed"
+    ],
+    "https://www.w3.org/TR/cssom/": [
+      "serializing-css-values"
+    ],
+    "https://www.w3.org/TR/web-animations/": [
+      "animation-type"
+    ],
+    "https://drafts.csswg.org/css-position-3/": [
+      "fixed-position",
+      "sticky-position"
+    ],
+    "https://drafts.csswg.org/cssom-view-1/": [
+      "dom-element-getboundingclientrect"
+    ],
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-x": [],
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-y": [],
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-block": [],
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior-inline": [],
+    "https://drafts.csswg.org/css-writing-modes-4/": [
+      "propdef-writing-mode"
+    ],
+    "https://www.w3.org/TR/CSS21/": [
+      "style-sheet",
+      "user-agent",
+      "ignore"
+    ],
+    "https://www.w3.org/Style/CSS/Test/": [],
+    "https://lists.w3.org/Archives/Public/public-css-testsuite": [],
+    "https://drafts.csswg.org/css-display/": [],
+    "https://drafts.csswg.org/css-position/": [],
+    "https://drafts.csswg.org/css-values-3/": [],
+    "https://drafts.csswg.org/css2/": [],
+    "https://drafts.csswg.org/cssom-view/": [],
+    "https://datatracker.ietf.org/doc/html/rfc2119": []
+  }
+}

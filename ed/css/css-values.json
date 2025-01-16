@@ -1,0 +1,179 @@
+{
+  "spec": {
+    "title": "CSS Values and Units Module Level 4",
+    "url": "https://drafts.csswg.org/css-values-4/"
+  },
+  "properties": {},
+  "atrules": {},
+  "valuespaces": {
+    "<mix()>": {
+      "prose": "Interpolation of two values can be represented by the mix() functional notation, whose syntax is defined as follows:"
+    },
+    "<start-value>": {
+      "prose": "The value at the “start” (0%) of the interpolation range."
+    },
+    "<end-value>": {
+      "prose": "The value at the “end” (100%) of the interpolation range."
+    },
+    "<ident>": {
+      "prose": "CSS identifiers, generically denoted by <ident>, consist of a sequence of characters conforming to the <ident-token> grammar. [CSS-SYNTAX-3] Identifiers cannot be quoted; otherwise they would be interpreted as strings. CSS properties accept two classes of identifiers: pre-defined keywords and author-defined identifiers."
+    },
+    "<custom-ident>": {
+      "prose": "Some properties accept arbitrary author-defined identifiers as a component value. This generic data type is denoted by <custom-ident>, and represents any valid CSS identifier that would not be misinterpreted as a pre-defined keyword in that property’s value definition. Such identifiers are fully case-sensitive (meaning they’re compared using the \"identical to\" operation), even in the ASCII range (e.g. example and EXAMPLE are two different, unrelated user-defined identifiers)."
+    },
+    "<dashed-ident>": {
+      "prose": "The <dashed-ident> production is a <custom-ident>, with all the case-sensitivity that implies, with the additional restriction that it must start with two dashes (U+002D HYPHEN-MINUS)."
+    },
+    "<string>": {
+      "prose": "Strings are denoted by <string>. When written literally, they consist of a sequence of characters delimited by double quotes or single quotes, corresponding to the <string-token> production in the CSS Syntax Module [CSS-SYNTAX-3]."
+    },
+    "<url()>": {
+      "prose": "Typically, a <url> is written with the url() or src() functional notations:"
+    },
+    "<src()>": {
+      "prose": "Typically, a <url> is written with the url() or src() functional notations:"
+    },
+    "<url-modifier>": {
+      "prose": "The url() function supports specifying additional <url-modifier>s, which change the meaning or the interpretation of the URL somehow. A <url-modifier> is either an <ident> or a functional notation."
+    },
+    "<integer>": {
+      "prose": "Integer values are denoted by <integer>."
+    },
+    "<number>": {
+      "prose": "Number values are denoted by <number>, and represent real numbers, possibly with a fractional component."
+    },
+    "<zero>": {
+      "prose": "The value <zero> represents a literal number with the value 0. Expressions that merely evaluate to a <number> with the value 0 (for example, calc(0)) do not match <zero>; only literal <number-token>s do."
+    },
+    "<dimension>": {
+      "prose": "The general term dimension refers to a number with a unit attached to it; and is denoted by <dimension>."
+    },
+    "<percentage>": {
+      "prose": "Percentage values are denoted by <percentage>, and indicates a value that is some fraction of another reference value."
+    },
+    "<length-percentage>": {
+      "value": "[ <length> | <percentage> ]"
+    },
+    "<frequency-percentage>": {
+      "value": "[ <frequency> | <percentage> ]"
+    },
+    "<angle-percentage>": {
+      "value": "[ <angle> | <percentage> ]"
+    },
+    "<time-percentage>": {
+      "value": "[ <time> | <percentage> ]"
+    },
+    "<ratio>": {
+      "prose": "Ratio values are denoted by <ratio>, and represent the ratio of two numeric values. It most often represents an aspect ratio, relating a width (first) to a height (second).",
+      "value": "<number [0,∞]> [ / <number [0,∞]> ]?"
+    },
+    "<length>": {
+      "prose": "Lengths refer to distance measurements and are denoted by <length> in the property definitions. A length is a dimension."
+    },
+    "<angle>": {
+      "prose": "Angle values are <dimension>s denoted by <angle>. The angle unit identifiers are:"
+    },
+    "<time>": {
+      "prose": "Time values are dimensions denoted by <time>. The time unit identifiers are:"
+    },
+    "<frequency>": {
+      "prose": "Frequency values are dimensions denoted by <frequency>. The frequency unit identifiers are:"
+    },
+    "<resolution>": {
+      "prose": "Resolution units are dimensions denoted by <resolution>. The resolution unit identifiers are:"
+    },
+    "<position>": {
+      "prose": "The <position> value specifies the position of a object area (e.g. background image) inside a positioning area (e.g. background positioning area). It is interpreted as specified for background-position. [CSS3-BACKGROUND]",
+      "value": "[ [ left | center | right ] || [ top | center | bottom ] | [ left | center | right | <length-percentage> ] [ top | center | bottom | <length-percentage> ]? | [ [ left | right ] <length-percentage> ] && [ [ top | bottom ] <length-percentage> ] ]"
+    },
+    "<calc()>": {
+      "prose": "The calc() function is a math function that allows basic arithmetic to be performed on numerical values, using addition (+), subtraction (-), multiplication (*), division (/), and parentheses.",
+      "value": "calc( <calc-sum> )"
+    },
+    "<min()>": {
+      "prose": "The min() or max() functions contain one or more comma-separated calculations, and represent the smallest (most negative) or largest (most positive) of them, respectively.",
+      "value": "min( <calc-sum># )"
+    },
+    "<max()>": {
+      "prose": "The min() or max() functions contain one or more comma-separated calculations, and represent the smallest (most negative) or largest (most positive) of them, respectively.",
+      "value": "max( <calc-sum># )"
+    },
+    "<clamp()>": {
+      "prose": "The clamp() function takes three calculations—a minimum value, a central value, and a maximum value—and represents its central calculation, clamped according to its min and max calculations, favoring the min calculation if it conflicts with the max. (That is, given clamp(MIN, VAL, MAX), it represents exactly the same value as max(MIN, min(VAL, MAX))).",
+      "value": "clamp( <calc-sum>#{3} )"
+    },
+    "<round()>": {
+      "value": "round( <rounding-strategy>?, <calc-sum>, <calc-sum> )"
+    },
+    "<rounding-strategy>": {
+      "prose": "If A is exactly equal to an integer multiple of B, round() resolves to A exactly (preserving whether A is 0⁻ or 0⁺, if relevant). Otherwise, there are two integer multiples of B that are potentially \"closest\" to A, lower B which is closer to −∞ and upper B which is closer to +∞. The following <rounding-strategy>s dictate how to choose between them:",
+      "value": "nearest | up | down | to-zero"
+    },
+    "<mod()>": {
+      "value": "mod( <calc-sum>, <calc-sum> )"
+    },
+    "<rem()>": {
+      "value": "rem( <calc-sum>, <calc-sum> )"
+    },
+    "<sin()>": {
+      "value": "sin( <calc-sum> )"
+    },
+    "<cos()>": {
+      "value": "cos( <calc-sum> )"
+    },
+    "<tan()>": {
+      "value": "tan( <calc-sum> )"
+    },
+    "<asin()>": {
+      "value": "asin( <calc-sum> )"
+    },
+    "<acos()>": {
+      "value": "acos( <calc-sum> )"
+    },
+    "<atan()>": {
+      "value": "atan( <calc-sum> )"
+    },
+    "<atan2()>": {
+      "value": "atan2( <calc-sum>, <calc-sum> )"
+    },
+    "<pow()>": {
+      "value": "pow( <calc-sum>, <calc-sum> )"
+    },
+    "<sqrt()>": {
+      "value": "sqrt( <calc-sum> )"
+    },
+    "<hypot()>": {
+      "value": "hypot( <calc-sum># )"
+    },
+    "<log()>": {
+      "value": "log( <calc-sum>, <calc-sum>? )"
+    },
+    "<exp()>": {
+      "value": "exp( <calc-sum> )"
+    },
+    "<abs()>": {
+      "value": "abs( <calc-sum> )"
+    },
+    "<sign()>": {
+      "value": "sign( <calc-sum> )"
+    },
+    "<quirky-length>": {
+      "prose": "When CSS is being parsed in quirks mode, <quirky-length> is a type of <length> that is only valid in certain properties:"
+    },
+    "<url>": {
+      "value": "url( <string> <url-modifier>* ) | src( <string> <url-modifier>* )"
+    },
+    "<calc-sum>": {
+      "value": "<calc-product> [ [ '+' | '-' ] <calc-product> ]*"
+    },
+    "<calc-product>": {
+      "value": "<calc-value> [ [ '*' | '/' ] <calc-value> ]*"
+    },
+    "<calc-value>": {
+      "value": "<number> | <dimension> | <percentage> | <calc-constant> | ( <calc-sum> )"
+    },
+    "<calc-constant>": {
+      "value": "e | pi | infinity | -infinity | NaN"
+    }
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "spec": {
+    "title": "CSS Shapes Module Level 1",
+    "url": "https://www.w3.org/TR/css-shapes-1/"
+  },
+  "dfns": [
+    {
+      "id": "wrap",
+      "href": "https://www.w3.org/TR/css-shapes-1/#wrap",
+      "linkingText": [
+        "Wrap"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/css-shapes-1/#terminology",
+        "title": "Terminology",
+        "number": "1.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "float-area",
+      "href": "https://www.w3.org/TR/css-shapes-1/#float-area",
+      "linkingText": [
+        "Float area"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://www.w3.org/TR/css-shapes-1/#terminology",
+        "title": "Terminology",
+        "number": "1.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "empty-float-area",
+      "href": "https://www.w3.org/TR/css-shapes-1/#empty-float-area",
+      "linkingText": [
+        "empty float area"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "relation-to-box-model-and-float-behavior",
+        "href": "https://www.w3.org/TR/css-shapes-1/#relation-to-box-model-and-float-behavior",
+        "title": "2 Relation to the box model and float behavior"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-basic-shape",
+      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-basic-shape",
+      "linkingText": [
+        "<basic-shape>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "basic-shape-functions",
+        "href": "https://www.w3.org/TR/css-shapes-1/#basic-shape-functions",
+        "title": "3 Basic Shapes"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "reference-box",
+      "href": "https://www.w3.org/TR/css-shapes-1/#reference-box",
+      "linkingText": [
+        "reference box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "basic-shape-functions",
+        "href": "https://www.w3.org/TR/css-shapes-1/#basic-shape-functions",
+        "title": "3 Basic Shapes"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-inset",
+      "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-inset",
+      "linkingText": [
+        "inset()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "funcdef-circle",
+      "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-circle",
+      "linkingText": [
+        "circle()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "funcdef-ellipse",
+      "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-ellipse",
+      "linkingText": [
+        "ellipse()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "funcdef-polygon",
+      "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-polygon",
+      "linkingText": [
+        "polygon()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "typedef-fill-rule",
+      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-fill-rule",
+      "linkingText": [
+        "<fill-rule>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-shape-arg",
+      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-arg",
+      "linkingText": [
+        "<shape-arg>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "typedef-shape-radius",
+      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-radius",
+      "linkingText": [
+        "<shape-radius>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "closest-side",
+      "href": "https://www.w3.org/TR/css-shapes-1/#closest-side",
+      "linkingText": [
+        "closest-side"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "farthest-side",
+      "href": "https://www.w3.org/TR/css-shapes-1/#farthest-side",
+      "linkingText": [
+        "farthest-side"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://www.w3.org/TR/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-shape-box",
+      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-box",
+      "linkingText": [
+        "<shape-box>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shapes-from-box-values",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shapes-from-box-values",
+        "title": "5 Shapes from Box Values"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "margin-box",
+      "href": "https://www.w3.org/TR/css-shapes-1/#margin-box",
+      "linkingText": [
+        "margin-box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-from-box-values",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shapes-from-box-values",
+        "title": "5 Shapes from Box Values"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "border-box",
+      "href": "https://www.w3.org/TR/css-shapes-1/#border-box",
+      "linkingText": [
+        "border-box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-from-box-values",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shapes-from-box-values",
+        "title": "5 Shapes from Box Values"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "padding-box",
+      "href": "https://www.w3.org/TR/css-shapes-1/#padding-box",
+      "linkingText": [
+        "padding-box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-from-box-values",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shapes-from-box-values",
+        "title": "5 Shapes from Box Values"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "content-box",
+      "href": "https://www.w3.org/TR/css-shapes-1/#content-box",
+      "linkingText": [
+        "content-box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-from-box-values",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shapes-from-box-values",
+        "title": "5 Shapes from Box Values"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "propdef-shape-outside",
+      "href": "https://www.w3.org/TR/css-shapes-1/#propdef-shape-outside",
+      "linkingText": [
+        "shape-outside"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-outside-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-outside-property",
+        "title": "Float Area Shape: the shape-outside property",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valuedef-none",
+      "href": "https://www.w3.org/TR/css-shapes-1/#valuedef-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape-outside"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-outside-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-outside-property",
+        "title": "Float Area Shape: the shape-outside property",
+        "number": "6.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valuedef-basic-shape",
+      "href": "https://www.w3.org/TR/css-shapes-1/#valuedef-basic-shape",
+      "linkingText": [
+        "<basic-shape>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape-outside"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-outside-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-outside-property",
+        "title": "Float Area Shape: the shape-outside property",
+        "number": "6.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valuedef-image",
+      "href": "https://www.w3.org/TR/css-shapes-1/#valuedef-image",
+      "linkingText": [
+        "<image>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape-outside"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-outside-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-outside-property",
+        "title": "Float Area Shape: the shape-outside property",
+        "number": "6.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-shape-image-threshold",
+      "href": "https://www.w3.org/TR/css-shapes-1/#propdef-shape-image-threshold",
+      "linkingText": [
+        "shape-image-threshold"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-image-threshold-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-image-threshold-property",
+        "title": "Choosing Image Pixels: the shape-image-threshold property",
+        "number": "6.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valuedef-number",
+      "href": "https://www.w3.org/TR/css-shapes-1/#valuedef-number",
+      "linkingText": [
+        "<number>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape-image-threshold"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-image-threshold-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-image-threshold-property",
+        "title": "Choosing Image Pixels: the shape-image-threshold property",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-shape-margin",
+      "href": "https://www.w3.org/TR/css-shapes-1/#propdef-shape-margin",
+      "linkingText": [
+        "shape-margin"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-margin-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-margin-property",
+        "title": "Embiggening a Shape: the shape-margin property",
+        "number": "6.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valuedef-length",
+      "href": "https://www.w3.org/TR/css-shapes-1/#valuedef-length",
+      "linkingText": [
+        "<length>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape-margin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-margin-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-margin-property",
+        "title": "Embiggening a Shape: the shape-margin property",
+        "number": "6.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valuedef-percentage",
+      "href": "https://www.w3.org/TR/css-shapes-1/#valuedef-percentage",
+      "linkingText": [
+        "<percentage>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape-margin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-margin-property",
+        "href": "https://www.w3.org/TR/css-shapes-1/#shape-margin-property",
+        "title": "Embiggening a Shape: the shape-margin property",
+        "number": "6.3"
+      },
+      "definedIn": "dt"
+    }
+  ]
+}

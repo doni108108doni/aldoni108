@@ -1,0 +1,77 @@
+{
+  "spec": {
+    "title": "CSS Shapes Module Level 1",
+    "url": "https://www.w3.org/TR/css-shapes-1/"
+  },
+  "properties": {
+    "shape-outside": {
+      "name": "shape-outside",
+      "value": "none | [ <basic-shape> || <shape-box> ] | <image>",
+      "initial": "none",
+      "appliesTo": "floats",
+      "inherited": "no",
+      "media": "visual",
+      "computedValue": "as defined for <basic-shape> (with <shape-box> following, if supplied), the <image> with its URI made absolute, otherwise as specified.",
+      "animatable": "as specified for <basic-shape>, otherwise no",
+      "styleDeclaration": [
+        "shape-outside",
+        "shapeOutside"
+      ]
+    },
+    "shape-image-threshold": {
+      "name": "shape-image-threshold",
+      "value": "<number>",
+      "initial": "0.0",
+      "appliesTo": "floats",
+      "inherited": "no",
+      "media": "visual",
+      "computedValue": "The same as the specified value after clipping the <number> to the range [0.0,1.0]",
+      "animatable": "as number",
+      "styleDeclaration": [
+        "shape-image-threshold",
+        "shapeImageThreshold"
+      ]
+    },
+    "shape-margin": {
+      "name": "shape-margin",
+      "value": "<length> | <percentage>",
+      "initial": "0",
+      "appliesTo": "floats",
+      "inherited": "no",
+      "media": "visual",
+      "computedValue": "the absolute length",
+      "animatable": "as length, percentage, or calc.",
+      "styleDeclaration": [
+        "shape-margin",
+        "shapeMargin"
+      ]
+    }
+  },
+  "atrules": {},
+  "valuespaces": {
+    "<basic-shape>": {
+      "prose": "The <basic-shape> type can be specified using basic shape functions. When using this syntax to define shapes, the reference box is defined by each property that uses <basic-shape> values. The coordinate system for the shape has its origin on the top-left corner of the reference box with the x-axis running to the right and the y-axis running downwards. All the lengths expressed in percentages are resolved from the used dimensions of the reference box."
+    },
+    "<inset()>": {
+      "value": "inset( <shape-arg>{1,4} [round <border-radius>]? )"
+    },
+    "<circle()>": {
+      "value": "circle( [<shape-radius>]? [at <position>]? )"
+    },
+    "<ellipse()>": {
+      "value": "ellipse( [<shape-radius>{2}]? [at <position>]? )"
+    },
+    "<polygon()>": {
+      "value": "polygon( [<fill-rule>,]? [<shape-arg> <shape-arg>]# )"
+    },
+    "<shape-arg>": {
+      "value": "<length> | <percentage>"
+    },
+    "<shape-radius>": {
+      "value": "<length> | <percentage> | closest-side | farthest-side"
+    },
+    "<shape-box>": {
+      "value": "<box> | margin-box"
+    }
+  }
+}

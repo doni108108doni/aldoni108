@@ -1,0 +1,85 @@
+{
+  "spec": {
+    "title": "Timing Entry Names Registry",
+    "url": "https://www.w3.org/TR/timing-entrytypes-registry/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-performanceentry",
+      "href": "https://www.w3.org/TR/timing-entrytypes-registry/#dfn-performanceentry",
+      "linkingText": [
+        "PerformanceEntry"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "purpose",
+        "href": "https://www.w3.org/TR/timing-entrytypes-registry/#purpose",
+        "title": "Purpose",
+        "number": "1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-performanceentry-entrytype",
+      "href": "https://www.w3.org/TR/timing-entrytypes-registry/#dfn-performanceentry-entrytype",
+      "linkingText": [
+        "performanceentry.entrytype",
+        "entrytype"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "purpose",
+        "href": "https://www.w3.org/TR/timing-entrytypes-registry/#purpose",
+        "title": "Purpose",
+        "number": "1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-availablefromtimeline",
+      "href": "https://www.w3.org/TR/timing-entrytypes-registry/#dfn-availablefromtimeline",
+      "linkingText": [
+        "availableFromTimeline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "registration",
+        "href": "https://www.w3.org/TR/timing-entrytypes-registry/#registration",
+        "title": "Registration Entry Requirements and Update Process",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-maxbuffersize",
+      "href": "https://www.w3.org/TR/timing-entrytypes-registry/#dfn-maxbuffersize",
+      "linkingText": [
+        "maxBufferSize"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "registration",
+        "href": "https://www.w3.org/TR/timing-entrytypes-registry/#registration",
+        "title": "Registration Entry Requirements and Update Process",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}
