@@ -1,0 +1,15 @@
+{
+  "name": "ImageTrack",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "WebCodecs",
+      "url": "https://www.w3.org/TR/webcodecs/"
+    },
+    "fragment": "[Exposed=(Window,DedicatedWorker)]\ninterface ImageTrack {\n  readonly attribute boolean animated;\n  readonly attribute unsigned long frameCount;\n  readonly attribute unrestricted float repetitionCount;\n  attribute boolean selected;\n};",
+    "href": "https://w3c.github.io/webcodecs/#imagetrack"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

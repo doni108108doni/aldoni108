@@ -1,0 +1,6 @@
+// Source: Compression Standard (https://compression.spec.whatwg.org/)
+enum CompressionFormat {
+  "deflate",
+  "deflate-raw",
+  "gzip",
+};

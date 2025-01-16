@@ -1,0 +1,8 @@
+// Source: CSSOM View Module (https://www.w3.org/TR/cssom-view-1/)
+dictionary CheckVisibilityOptions {
+    boolean checkOpacity = false;
+    boolean checkVisibilityCSS = false;
+    boolean contentVisibilityAuto = false;
+    boolean opacityProperty = false;
+    boolean visibilityProperty = false;
+};

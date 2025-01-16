@@ -1,0 +1,27 @@
+{
+  "name": "webref",
+  "description": "Machine-readable references and analyses of terms defined in web browser specifications",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w3c/webref.git"
+  },
+  "bugs": {
+    "url": "https://github.com/w3c/webref/issues"
+  },
+  "author": {
+    "name": "tidoust",
+    "email": "fd@w3.org"
+  },
+  "contributors": [
+    {
+      "name": "foolip",
+      "email": "philip@foolip.org"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}

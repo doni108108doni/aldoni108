@@ -1,0 +1,8 @@
+// Source: Fenced Frame (https://wicg.github.io/fenced-frame/)
+enum FenceReportingDestination {
+  "buyer",
+  "seller",
+  "component-seller",
+  "direct-seller",
+  "shared-storage-select-url",
+};

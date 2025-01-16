@@ -1,0 +1,6 @@
+// Source: Fenced Frame (https://wicg.github.io/fenced-frame/)
+[Exposed=Window, Serializable]
+interface FencedFrameConfig {
+  constructor(USVString url);
+  undefined setSharedStorageContext(DOMString contextString);
+};
