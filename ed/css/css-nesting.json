@@ -1,0 +1,24 @@
+{
+  "spec": {
+    "title": "CSS Nesting Module",
+    "url": "https://drafts.csswg.org/css-nesting-1/"
+  },
+  "properties": [],
+  "atrules": [
+    {
+      "name": "@nest",
+      "prose": "To address all of these issue, the @nest rule is defined:",
+      "href": "https://drafts.csswg.org/css-nesting-1/#at-ruledef-nest",
+      "descriptors": [],
+      "value": "@nest { <block-contents> }"
+    }
+  ],
+  "selectors": [
+    {
+      "name": "&",
+      "prose": "When using a nested style rule, one must be able to refer to the elements matched by the parent rule; that is, after all, the entire point of nesting. To accomplish that, this specification defines a new selector, the nesting selector, written as & (U+0026 AMPERSAND).",
+      "href": "https://drafts.csswg.org/css-nesting-1/#selectordef-"
+    }
+  ],
+  "values": []
+}
