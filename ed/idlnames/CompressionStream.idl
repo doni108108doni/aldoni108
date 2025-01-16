@@ -1,0 +1,8 @@
+// Source: Compression Standard (https://compression.spec.whatwg.org/)
+[Exposed=*]
+interface CompressionStream {
+  constructor(CompressionFormat format);
+};
+
+// Source: Compression Standard (https://compression.spec.whatwg.org/)
+CompressionStream includes GenericTransformStream;

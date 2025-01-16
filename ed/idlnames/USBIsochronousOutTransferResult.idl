@@ -1,0 +1,9 @@
+// Source: WebUSB API (https://wicg.github.io/webusb/)
+[
+  Exposed=(Worker,Window),
+  SecureContext
+]
+interface USBIsochronousOutTransferResult {
+  constructor(sequence<USBIsochronousOutTransferPacket> packets);
+  readonly attribute FrozenArray<USBIsochronousOutTransferPacket> packets;
+};

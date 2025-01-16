@@ -1,0 +1,15 @@
+{
+  "name": "ContactInfo",
+  "type": "dictionary",
+  "defined": {
+    "spec": {
+      "title": "Contact Picker API",
+      "url": "https://www.w3.org/TR/contact-picker/"
+    },
+    "fragment": "dictionary ContactInfo {\n    sequence<ContactAddress> address;\n    sequence<DOMString> email;\n    sequence<Blob> icon;\n    sequence<DOMString> name;\n    sequence<DOMString> tel;\n};",
+    "href": "https://w3c.github.io/contact-picker/#dictdef-contactinfo"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

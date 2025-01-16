@@ -1,0 +1,1508 @@
+{
+  "spec": {
+    "title": "HTML Sanitizer API",
+    "url": "https://wicg.github.io/sanitizer-api/"
+  },
+  "dfns": [
+    {
+      "id": "dom-element-sethtmlunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-element-sethtmlunsafe",
+      "linkingText": [
+        "setHTMLUnsafe(html, options)",
+        "setHTMLUnsafe(html)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Element"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-element-sethtmlunsafe-html-options-html",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-element-sethtmlunsafe-html-options-html",
+      "linkingText": [
+        "html"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Element/setHTMLUnsafe(html, options)",
+        "Element/setHTMLUnsafe(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-element-sethtmlunsafe-html-options-options",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-element-sethtmlunsafe-html-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Element/setHTMLUnsafe(html, options)",
+        "Element/setHTMLUnsafe(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-element-sethtml",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-element-sethtml",
+      "linkingText": [
+        "setHTML(html, options)",
+        "setHTML(html)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Element"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-element-sethtml-html-options-html",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-element-sethtml-html-options-html",
+      "linkingText": [
+        "html"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Element/setHTML(html, options)",
+        "Element/setHTML(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-element-sethtml-html-options-options",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-element-sethtml-html-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Element/setHTML(html, options)",
+        "Element/setHTML(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "element-sethtmlunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#element-sethtmlunsafe",
+      "linkingText": [
+        "setHTMLUnsafe"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Element"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "element-sethtml",
+      "href": "https://wicg.github.io/sanitizer-api/#element-sethtml",
+      "linkingText": [
+        "setHTML"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Element"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-shadowroot-sethtmlunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtmlunsafe",
+      "linkingText": [
+        "setHTMLUnsafe(html, options)",
+        "setHTMLUnsafe(html)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-shadowroot-sethtmlunsafe-html-options-html",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtmlunsafe-html-options-html",
+      "linkingText": [
+        "html"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ShadowRoot/setHTMLUnsafe(html, options)",
+        "ShadowRoot/setHTMLUnsafe(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-shadowroot-sethtmlunsafe-html-options-options",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtmlunsafe-html-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ShadowRoot/setHTMLUnsafe(html, options)",
+        "ShadowRoot/setHTMLUnsafe(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-shadowroot-sethtml",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml",
+      "linkingText": [
+        "setHTML(html, options)",
+        "setHTML(html)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-shadowroot-sethtml-html-options-html",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml-html-options-html",
+      "linkingText": [
+        "html"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ShadowRoot/setHTML(html, options)",
+        "ShadowRoot/setHTML(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-shadowroot-sethtml-html-options-options",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml-html-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ShadowRoot/setHTML(html, options)",
+        "ShadowRoot/setHTML(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "shadowroot-sethtmlunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#shadowroot-sethtmlunsafe",
+      "linkingText": [
+        "setHTMLUnsafe"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "shadowroot-sethtml",
+      "href": "https://wicg.github.io/sanitizer-api/#shadowroot-sethtml",
+      "linkingText": [
+        "setHTML"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-document-parsehtmlunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-document-parsehtmlunsafe",
+      "linkingText": [
+        "parseHTMLUnsafe(html, options)",
+        "parseHTMLUnsafe(html)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-parsehtmlunsafe-html-options-html",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-document-parsehtmlunsafe-html-options-html",
+      "linkingText": [
+        "html"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Document/parseHTMLUnsafe(html, options)",
+        "Document/parseHTMLUnsafe(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-parsehtmlunsafe-html-options-options",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-document-parsehtmlunsafe-html-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Document/parseHTMLUnsafe(html, options)",
+        "Document/parseHTMLUnsafe(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-parsehtml",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-document-parsehtml",
+      "linkingText": [
+        "parseHTML(html, options)",
+        "parseHTML(html)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-parsehtml-html-options-html",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-document-parsehtml-html-options-html",
+      "linkingText": [
+        "html"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Document/parseHTML(html, options)",
+        "Document/parseHTML(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-parsehtml-html-options-options",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-document-parsehtml-html-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Document/parseHTML(html, options)",
+        "Document/parseHTML(html)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "document-parsehtmlunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#document-parsehtmlunsafe",
+      "linkingText": [
+        "parseHTMLUnsafe"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-parsehtml",
+      "href": "https://wicg.github.io/sanitizer-api/#document-parsehtml",
+      "linkingText": [
+        "parseHTML"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sanitizer-api",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitizer-api",
+        "title": "Sanitizer API",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dictdef-sethtmloptions",
+      "href": "https://wicg.github.io/sanitizer-api/#dictdef-sethtmloptions",
+      "linkingText": [
+        "SetHTMLOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sethtmloptions-sanitizer",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sethtmloptions-sanitizer",
+      "linkingText": [
+        "sanitizer"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SetHTMLOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "sanitizer",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizer",
+      "linkingText": [
+        "Sanitizer"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizer-sanitizer",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer",
+      "linkingText": [
+        "Sanitizer(config)",
+        "constructor(config)",
+        "Sanitizer()",
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizer-sanitizer-config-config",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer-config-config",
+      "linkingText": [
+        "config"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Sanitizer/Sanitizer(config)",
+        "Sanitizer/constructor(config)",
+        "Sanitizer/Sanitizer()",
+        "Sanitizer/constructor()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizer-get",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-get",
+      "linkingText": [
+        "get()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizer-getunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizer-getunsafe",
+      "linkingText": [
+        "getUnsafe()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "sanitizer-constructor",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizer-constructor",
+      "linkingText": [
+        "constructor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizer-get",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizer-get",
+      "linkingText": [
+        "get"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizer-getunsafe",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizer-getunsafe",
+      "linkingText": [
+        "getUnsafe"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "configobject",
+        "href": "https://wicg.github.io/sanitizer-api/#configobject",
+        "title": "SetHTML options and the configuration object.",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dictdef-sanitizerelementnamespace",
+      "href": "https://wicg.github.io/sanitizer-api/#dictdef-sanitizerelementnamespace",
+      "linkingText": [
+        "SanitizerElementNamespace"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerelementnamespace-name",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerelementnamespace-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerElementNamespace"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerelementnamespace-namespace",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerelementnamespace-namespace",
+      "linkingText": [
+        "namespace"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerElementNamespace"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-sanitizerelementnamespacewithattributes",
+      "href": "https://wicg.github.io/sanitizer-api/#dictdef-sanitizerelementnamespacewithattributes",
+      "linkingText": [
+        "SanitizerElementNamespaceWithAttributes"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerelementnamespacewithattributes-attributes",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerelementnamespacewithattributes-attributes",
+      "linkingText": [
+        "attributes"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerElementNamespaceWithAttributes"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerelementnamespacewithattributes-removeattributes",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerelementnamespacewithattributes-removeattributes",
+      "linkingText": [
+        "removeAttributes"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerElementNamespaceWithAttributes"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedefdef-sanitizerelement",
+      "href": "https://wicg.github.io/sanitizer-api/#typedefdef-sanitizerelement",
+      "linkingText": [
+        "SanitizerElement"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedefdef-sanitizerelementwithattributes",
+      "href": "https://wicg.github.io/sanitizer-api/#typedefdef-sanitizerelementwithattributes",
+      "linkingText": [
+        "SanitizerElementWithAttributes"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-sanitizerattributenamespace",
+      "href": "https://wicg.github.io/sanitizer-api/#dictdef-sanitizerattributenamespace",
+      "linkingText": [
+        "SanitizerAttributeNamespace"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerattributenamespace-name",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerattributenamespace-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerAttributeNamespace"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerattributenamespace-namespace",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerattributenamespace-namespace",
+      "linkingText": [
+        "namespace"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerAttributeNamespace"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedefdef-sanitizerattribute",
+      "href": "https://wicg.github.io/sanitizer-api/#typedefdef-sanitizerattribute",
+      "linkingText": [
+        "SanitizerAttribute"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-sanitizerconfig",
+      "href": "https://wicg.github.io/sanitizer-api/#dictdef-sanitizerconfig",
+      "linkingText": [
+        "SanitizerConfig"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-elements",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-elements",
+      "linkingText": [
+        "elements"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-removeelements",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-removeelements",
+      "linkingText": [
+        "removeElements"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-replacewithchildrenelements",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-replacewithchildrenelements",
+      "linkingText": [
+        "replaceWithChildrenElements"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-attributes",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-attributes",
+      "linkingText": [
+        "attributes"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-removeattributes",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-removeattributes",
+      "linkingText": [
+        "removeAttributes"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-comments",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-comments",
+      "linkingText": [
+        "comments"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-sanitizerconfig-dataattributes",
+      "href": "https://wicg.github.io/sanitizer-api/#dom-sanitizerconfig-dataattributes",
+      "linkingText": [
+        "dataAttributes"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "config",
+        "href": "https://wicg.github.io/sanitizer-api/#config",
+        "title": "The Configuration Dictionary",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "set-and-filter-html",
+      "href": "https://wicg.github.io/sanitizer-api/#set-and-filter-html",
+      "linkingText": [
+        "set and filter HTML"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "algorithms",
+        "href": "https://wicg.github.io/sanitizer-api/#algorithms",
+        "title": "Algorithms",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizerconfig-get-a-sanitizer-config-from-options",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizerconfig-get-a-sanitizer-config-from-options",
+      "linkingText": [
+        "get a sanitizer config from options"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "algorithms",
+        "href": "https://wicg.github.io/sanitizer-api/#algorithms",
+        "title": "Algorithms",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitize",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitize",
+      "linkingText": [
+        "sanitize"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sanitization",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitization",
+        "title": "Sanitization Algorithms",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizerconfig-valid",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizerconfig-valid",
+      "linkingText": [
+        "valid"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizernamelist-valid",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizernamelist-valid",
+      "linkingText": [
+        "valid"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerNameList"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizerconfig-canonical",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizerconfig-canonical",
+      "linkingText": [
+        "canonical"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizernamelist-canonical",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizernamelist-canonical",
+      "linkingText": [
+        "canonical"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerNameList"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizernamewithattributeslist-canonical",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizernamewithattributeslist-canonical",
+      "linkingText": [
+        "canonical"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerNameWithAttributesList"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "canonicalize-a-configuration",
+      "href": "https://wicg.github.io/sanitizer-api/#canonicalize-a-configuration",
+      "linkingText": [
+        "canonicalize a configuration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "canonicalize-a-sanitizer-element-list",
+      "href": "https://wicg.github.io/sanitizer-api/#canonicalize-a-sanitizer-element-list",
+      "linkingText": [
+        "canonicalize a sanitizer element list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "canonicalize-a-sanitizer-name",
+      "href": "https://wicg.github.io/sanitizer-api/#canonicalize-a-sanitizer-name",
+      "linkingText": [
+        "canonicalize a sanitizer name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "configuration-processing",
+        "href": "https://wicg.github.io/sanitizer-api/#configuration-processing",
+        "title": "Configuration Processing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sanitizerconfig-contains",
+      "href": "https://wicg.github.io/sanitizer-api/#sanitizerconfig-contains",
+      "linkingText": [
+        "contains"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SanitizerConfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "alg-support",
+        "href": "https://wicg.github.io/sanitizer-api/#alg-support",
+        "title": "Supporting Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "set-difference",
+      "href": "https://wicg.github.io/sanitizer-api/#set-difference",
+      "linkingText": [
+        "difference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "set"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "alg-support",
+        "href": "https://wicg.github.io/sanitizer-api/#alg-support",
+        "title": "Supporting Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "set-equal",
+      "href": "https://wicg.github.io/sanitizer-api/#set-equal",
+      "linkingText": [
+        "equal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "set"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "alg-support",
+        "href": "https://wicg.github.io/sanitizer-api/#alg-support",
+        "title": "Supporting Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "built-in-default-config",
+      "href": "https://wicg.github.io/sanitizer-api/#built-in-default-config",
+      "linkingText": [
+        "built-in default config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sanitization-defaults",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitization-defaults",
+        "title": "Defaults",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "known-elements",
+      "href": "https://wicg.github.io/sanitizer-api/#known-elements",
+      "linkingText": [
+        "known elements"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sanitization-defaults",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitization-defaults",
+        "title": "Defaults",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "known-attributes",
+      "href": "https://wicg.github.io/sanitizer-api/#known-attributes",
+      "linkingText": [
+        "known attributes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sanitization-defaults",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitization-defaults",
+        "title": "Defaults",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigating-url-attributes-list",
+      "href": "https://wicg.github.io/sanitizer-api/#navigating-url-attributes-list",
+      "linkingText": [
+        "navigating URL attributes list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sanitization-defaults",
+        "href": "https://wicg.github.io/sanitizer-api/#sanitization-defaults",
+        "title": "Defaults",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

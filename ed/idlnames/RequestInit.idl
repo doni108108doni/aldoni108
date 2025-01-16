@@ -1,0 +1,43 @@
+// Source: Fetch Standard (https://fetch.spec.whatwg.org/)
+dictionary RequestInit {
+  ByteString method;
+  HeadersInit headers;
+  BodyInit? body;
+  USVString referrer;
+  ReferrerPolicy referrerPolicy;
+  RequestMode mode;
+  RequestCredentials credentials;
+  RequestCache cache;
+  RequestRedirect redirect;
+  DOMString integrity;
+  boolean keepalive;
+  AbortSignal? signal;
+  RequestDuplex duplex;
+  RequestPriority priority;
+  any window; // can only be set to null
+};
+
+// Source: Attribution Reporting (https://wicg.github.io/attribution-reporting-api/)
+partial dictionary RequestInit {
+  AttributionReportingRequestOptions attributionReporting;
+};
+
+// Source: Private Network Access (https://wicg.github.io/private-network-access/)
+partial dictionary RequestInit {
+  IPAddressSpace targetAddressSpace;
+};
+
+// Source: Shared Storage API (https://wicg.github.io/shared-storage/)
+partial dictionary RequestInit {
+  boolean sharedStorageWritable;
+};
+
+// Source: Private State Token API (https://wicg.github.io/trust-token-api/)
+partial dictionary RequestInit {
+  PrivateToken privateToken;
+};
+
+// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
+partial dictionary RequestInit {
+  boolean adAuctionHeaders;
+};

@@ -1,0 +1,15 @@
+{
+  "name": "NavigatorLocks",
+  "type": "interface mixin",
+  "defined": {
+    "spec": {
+      "title": "Web Locks API",
+      "url": "https://www.w3.org/TR/web-locks/"
+    },
+    "fragment": "[SecureContext]\ninterface mixin NavigatorLocks {\n  readonly attribute LockManager locks;\n};",
+    "href": "https://w3c.github.io/web-locks/#navigatorlocks"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

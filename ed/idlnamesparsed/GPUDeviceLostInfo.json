@@ -1,0 +1,15 @@
+{
+  "name": "GPUDeviceLostInfo",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "WebGPU",
+      "url": "https://www.w3.org/TR/webgpu/"
+    },
+    "fragment": "[Exposed=(Window, Worker), SecureContext]\ninterface GPUDeviceLostInfo {\n    readonly attribute GPUDeviceLostReason reason;\n    readonly attribute DOMString message;\n};",
+    "href": "https://gpuweb.github.io/gpuweb/#gpudevicelostinfo"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

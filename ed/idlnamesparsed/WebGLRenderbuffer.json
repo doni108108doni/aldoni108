@@ -1,0 +1,29 @@
+{
+  "name": "WebGLRenderbuffer",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "WebGL Specification",
+      "url": "https://registry.khronos.org/webgl/specs/latest/1.0/"
+    },
+    "fragment": "[Exposed=(Window,Worker)]\ninterface WebGLRenderbuffer : WebGLObject {\n};",
+    "href": "https://registry.khronos.org/webgl/specs/latest/1.0/#WebGLRenderbuffer"
+  },
+  "extended": [],
+  "inheritance": {
+    "name": "WebGLObject",
+    "type": "interface",
+    "defined": {
+      "spec": {
+        "title": "WebGL Specification",
+        "url": "https://registry.khronos.org/webgl/specs/latest/1.0/"
+      },
+      "fragment": "[Exposed=(Window,Worker)]\ninterface WebGLObject {\n    attribute USVString label;\n};",
+      "href": "https://registry.khronos.org/webgl/specs/latest/1.0/#WebGLObject"
+    },
+    "extended": [],
+    "inheritance": null,
+    "includes": []
+  },
+  "includes": []
+}

@@ -1,0 +1,2 @@
+// Source: Fenced Frame (https://wicg.github.io/fenced-frame/)
+typedef (FenceEvent or DOMString) ReportEventType;

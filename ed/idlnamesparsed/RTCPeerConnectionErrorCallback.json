@@ -1,0 +1,14 @@
+{
+  "name": "RTCPeerConnectionErrorCallback",
+  "type": "callback",
+  "defined": {
+    "spec": {
+      "title": "WebRTC: Real-Time Communication in Browsers",
+      "url": "https://www.w3.org/TR/webrtc/"
+    },
+    "fragment": "callback RTCPeerConnectionErrorCallback = undefined (DOMException error);",
+    "href": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectionerrorcallback"
+  },
+  "extended": [],
+  "includes": []
+}
