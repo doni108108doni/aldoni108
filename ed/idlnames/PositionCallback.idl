@@ -1,0 +1,4 @@
+// Source: Geolocation (https://www.w3.org/TR/geolocation/)
+callback PositionCallback = undefined (
+  GeolocationPosition position
+);

@@ -1,0 +1,15 @@
+{
+  "name": "RTCDtlsFingerprint",
+  "type": "dictionary",
+  "defined": {
+    "spec": {
+      "title": "WebRTC: Real-Time Communication in Browsers",
+      "url": "https://www.w3.org/TR/webrtc/"
+    },
+    "fragment": "dictionary RTCDtlsFingerprint {\n  DOMString algorithm;\n  DOMString value;\n};",
+    "href": "https://w3c.github.io/webrtc-pc/#dom-rtcdtlsfingerprint"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

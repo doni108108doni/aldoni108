@@ -1,0 +1,15 @@
+{
+  "name": "MimeType",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "HTML Standard",
+      "url": "https://html.spec.whatwg.org/multipage/"
+    },
+    "fragment": "[Exposed=Window]\ninterface MimeType {\n  readonly attribute DOMString type;\n  readonly attribute DOMString description;\n  readonly attribute DOMString suffixes;\n  readonly attribute Plugin enabledPlugin;\n};",
+    "href": "https://html.spec.whatwg.org/multipage/system-state.html#mimetype"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "title": "CSS Font Loading Module Level 3",
+    "url": "https://drafts.csswg.org/css-font-loading-3/"
+  },
+  "events": [
+    {
+      "type": "loading",
+      "targets": [
+        "FontFaceSet"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://drafts.csswg.org/css-font-loading-3/#eventdef-fontfaceset-loading",
+      "interface": "FontFaceSetLoadEvent"
+    },
+    {
+      "type": "loadingdone",
+      "targets": [
+        "FontFaceSet"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://drafts.csswg.org/css-font-loading-3/#eventdef-fontfaceset-loadingdone",
+      "interface": "FontFaceSetLoadEvent"
+    },
+    {
+      "type": "loadingerror",
+      "targets": [
+        "FontFaceSet"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://drafts.csswg.org/css-font-loading-3/#eventdef-fontfaceset-loadingerror",
+      "interface": "FontFaceSetLoadEvent"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+// Source: Intersection Observer (https://www.w3.org/TR/intersection-observer/)
+dictionary IntersectionObserverEntryInit {
+  required DOMHighResTimeStamp time;
+  required DOMRectInit? rootBounds;
+  required DOMRectInit boundingClientRect;
+  required DOMRectInit intersectionRect;
+  required boolean isIntersecting;
+  required boolean isVisible;
+  required double intersectionRatio;
+  required Element target;
+};

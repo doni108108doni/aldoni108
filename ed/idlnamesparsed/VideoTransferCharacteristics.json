@@ -1,0 +1,14 @@
+{
+  "name": "VideoTransferCharacteristics",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "WebCodecs",
+      "url": "https://www.w3.org/TR/webcodecs/"
+    },
+    "fragment": "enum VideoTransferCharacteristics {\n  \"bt709\",\n  \"smpte170m\",\n  \"iec61966-2-1\",\n  \"linear\",\n  \"pq\",\n  \"hlg\",\n};",
+    "href": "https://w3c.github.io/webcodecs/#enumdef-videotransfercharacteristics"
+  },
+  "extended": [],
+  "includes": []
+}

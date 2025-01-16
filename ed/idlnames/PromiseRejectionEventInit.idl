@@ -1,0 +1,5 @@
+// Source: HTML Standard (https://html.spec.whatwg.org/multipage/)
+dictionary PromiseRejectionEventInit : EventInit {
+  required object promise;
+  any reason;
+};

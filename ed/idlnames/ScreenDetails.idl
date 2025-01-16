@@ -1,0 +1,9 @@
+// Source: Window Management (https://www.w3.org/TR/window-management/)
+[Exposed=Window, SecureContext]
+interface ScreenDetails : EventTarget {
+  readonly attribute FrozenArray<ScreenDetailed> screens;
+  readonly attribute ScreenDetailed currentScreen;
+
+  attribute EventHandler onscreenschange;
+  attribute EventHandler oncurrentscreenchange;
+};

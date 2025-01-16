@@ -1,0 +1,37 @@
+{
+  "name": "ScreenDetails",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "Window Management",
+      "url": "https://www.w3.org/TR/window-management/"
+    },
+    "fragment": "[Exposed=Window, SecureContext]\ninterface ScreenDetails : EventTarget {\n  readonly attribute FrozenArray<ScreenDetailed> screens;\n  readonly attribute ScreenDetailed currentScreen;\n\n  attribute EventHandler onscreenschange;\n  attribute EventHandler oncurrentscreenchange;\n};",
+    "href": "https://w3c.github.io/window-management/#screendetails"
+  },
+  "extended": [],
+  "inheritance": {
+    "name": "EventTarget",
+    "type": "interface",
+    "defined": {
+      "spec": {
+        "title": "DOM Standard",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      "fragment": "[Exposed=*]\ninterface EventTarget {\n  constructor();\n\n  undefined addEventListener(DOMString type, EventListener? callback, optional (AddEventListenerOptions or boolean) options = {});\n  undefined removeEventListener(DOMString type, EventListener? callback, optional (EventListenerOptions or boolean) options = {});\n  boolean dispatchEvent(Event event);\n};",
+      "href": "https://dom.spec.whatwg.org/#eventtarget"
+    },
+    "extended": [
+      {
+        "spec": {
+          "title": "Observable",
+          "url": "https://wicg.github.io/observable/"
+        },
+        "fragment": "partial interface EventTarget {\n  Observable when(DOMString type, optional ObservableEventListenerOptions options = {});\n};"
+      }
+    ],
+    "inheritance": null,
+    "includes": []
+  },
+  "includes": []
+}
