@@ -1,0 +1,12 @@
+{
+  "spec": {
+    "title": "Moved to ITEF",
+    "url": "https://wicg.github.io/nav-speculation/no-vary-search.html"
+  },
+  "links": {
+    "rawlinks": {
+      "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html": {}
+    },
+    "autolinks": {}
+  }
+}
