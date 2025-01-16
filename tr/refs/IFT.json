@@ -1,0 +1,76 @@
+{
+  "spec": {
+    "title": "Incremental Font Transfer",
+    "url": "https://www.w3.org/TR/IFT/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "CSS-FONTS-4",
+        "url": "https://www.w3.org/TR/css-fonts-4/"
+      },
+      {
+        "name": "ISO14496-22",
+        "url": "https://www.iso.org/standard/87621.html"
+      },
+      {
+        "name": "OPEN-TYPE",
+        "url": "https://docs.microsoft.com/en-us/typography/opentype/spec"
+      },
+      {
+        "name": "PFE-report",
+        "url": "https://www.w3.org/TR/PFE-evaluation/"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "RFC3986",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+      },
+      {
+        "name": "RFC4648",
+        "url": "https://www.rfc-editor.org/rfc/rfc4648"
+      },
+      {
+        "name": "RFC6570",
+        "url": "https://www.rfc-editor.org/rfc/rfc6570"
+      },
+      {
+        "name": "RFC7932",
+        "url": "https://www.rfc-editor.org/rfc/rfc7932"
+      },
+      {
+        "name": "Shared-Brotli",
+        "url": "https://datatracker.ietf.org/doc/html/draft-vandevenne-shared-brotli-format-09"
+      },
+      {
+        "name": "UNICODE",
+        "url": "https://www.unicode.org/versions/latest/"
+      },
+      {
+        "name": "UTF-8",
+        "url": "https://www.rfc-editor.org/rfc/rfc3629"
+      },
+      {
+        "name": "WOFF2",
+        "url": "https://www.w3.org/TR/WOFF2/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "RFC9113",
+        "url": "https://httpwg.org/specs/rfc9113.html"
+      },
+      {
+        "name": "RFC9114",
+        "url": "https://httpwg.org/specs/rfc9114.html"
+      }
+    ]
+  }
+}
