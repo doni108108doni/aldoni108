@@ -1,0 +1,1468 @@
+{
+  "spec": {
+    "title": "WebAssembly JavaScript Interface",
+    "url": "https://webassembly.github.io/spec/js-api/"
+  },
+  "idlparsed": {
+    "jsNames": {
+      "constructors": {
+        "*": [
+          "Module",
+          "Instance",
+          "Memory",
+          "Table",
+          "Global"
+        ]
+      },
+      "functions": {}
+    },
+    "idlNames": {
+      "WebAssemblyInstantiatedSource": {
+        "fragment": "dictionary WebAssemblyInstantiatedSource {\n    required Module module;\n    required Instance instance;\n};",
+        "type": "dictionary",
+        "name": "WebAssemblyInstantiatedSource",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "module",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "Module"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-webassemblyinstantiatedsource-module"
+          },
+          {
+            "type": "field",
+            "name": "instance",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "Instance"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-webassemblyinstantiatedsource-instance"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#dictdef-webassemblyinstantiatedsource"
+      },
+      "WebAssembly": {
+        "fragment": "[Exposed=*]\nnamespace WebAssembly {\n    boolean validate(BufferSource bytes);\n    Promise<Module> compile(BufferSource bytes);\n\n    Promise<WebAssemblyInstantiatedSource> instantiate(\n        BufferSource bytes, optional object importObject);\n\n    Promise<Instance> instantiate(\n        Module moduleObject, optional object importObject);\n};",
+        "type": "namespace",
+        "name": "WebAssembly",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "operation",
+            "name": "validate",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "bytes",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "BufferSource"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-webassembly-validate"
+          },
+          {
+            "type": "operation",
+            "name": "compile",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "Promise",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "return-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Module"
+                }
+              ]
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "bytes",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "BufferSource"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-webassembly-compile"
+          },
+          {
+            "type": "operation",
+            "name": "instantiate",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "Promise",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "return-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "WebAssemblyInstantiatedSource"
+                }
+              ]
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "bytes",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "BufferSource"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "importObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "object"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate"
+          },
+          {
+            "type": "operation",
+            "name": "instantiate",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "Promise",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "return-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Instance"
+                }
+              ]
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "moduleObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Module"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "importObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "object"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate-moduleobject-importobject"
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#namespacedef-webassembly"
+      },
+      "ImportExportKind": {
+        "fragment": "enum ImportExportKind {\n  \"function\",\n  \"table\",\n  \"memory\",\n  \"global\"\n};",
+        "type": "enum",
+        "name": "ImportExportKind",
+        "values": [
+          {
+            "type": "enum-value",
+            "value": "function",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-importexportkind-function"
+          },
+          {
+            "type": "enum-value",
+            "value": "table",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-importexportkind-table"
+          },
+          {
+            "type": "enum-value",
+            "value": "memory",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-importexportkind-memory"
+          },
+          {
+            "type": "enum-value",
+            "value": "global",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-importexportkind-global"
+          }
+        ],
+        "extAttrs": [],
+        "href": "https://webassembly.github.io/spec/js-api/#enumdef-importexportkind"
+      },
+      "ModuleExportDescriptor": {
+        "fragment": "dictionary ModuleExportDescriptor {\n  required USVString name;\n  required ImportExportKind kind;\n  // Note: Other fields such as signature may be added in the future.\n};",
+        "type": "dictionary",
+        "name": "ModuleExportDescriptor",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "name",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "USVString"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-moduleexportdescriptor-name"
+          },
+          {
+            "type": "field",
+            "name": "kind",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "ImportExportKind"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-moduleexportdescriptor-kind"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#dictdef-moduleexportdescriptor"
+      },
+      "ModuleImportDescriptor": {
+        "fragment": "dictionary ModuleImportDescriptor {\n  required USVString module;\n  required USVString name;\n  required ImportExportKind kind;\n};",
+        "type": "dictionary",
+        "name": "ModuleImportDescriptor",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "module",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "USVString"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-moduleimportdescriptor-module"
+          },
+          {
+            "type": "field",
+            "name": "name",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "USVString"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-moduleimportdescriptor-name"
+          },
+          {
+            "type": "field",
+            "name": "kind",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "ImportExportKind"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-moduleimportdescriptor-kind"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#dictdef-moduleimportdescriptor"
+      },
+      "Module": {
+        "fragment": "[LegacyNamespace=WebAssembly, Exposed=*]\ninterface Module {\n  constructor(BufferSource bytes);\n  static sequence<ModuleExportDescriptor> exports(Module moduleObject);\n  static sequence<ModuleImportDescriptor> imports(Module moduleObject);\n  static sequence<ArrayBuffer> customSections(Module moduleObject, DOMString sectionName);\n};",
+        "type": "interface",
+        "name": "Module",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "bytes",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "BufferSource"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "href": "https://webassembly.github.io/spec/js-api/#dom-module-module"
+          },
+          {
+            "type": "operation",
+            "name": "exports",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "sequence",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "return-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "ModuleExportDescriptor"
+                }
+              ]
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "moduleObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Module"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "static",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-module-exports"
+          },
+          {
+            "type": "operation",
+            "name": "imports",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "sequence",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "return-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "ModuleImportDescriptor"
+                }
+              ]
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "moduleObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Module"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "static",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-module-imports"
+          },
+          {
+            "type": "operation",
+            "name": "customSections",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "sequence",
+              "nullable": false,
+              "union": false,
+              "idlType": [
+                {
+                  "type": "return-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "ArrayBuffer"
+                }
+              ]
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "moduleObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Module"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "sectionName",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "DOMString"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "static",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-module-customsections"
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "LegacyNamespace",
+            "rhs": {
+              "type": "identifier",
+              "value": "WebAssembly"
+            },
+            "arguments": []
+          },
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#module"
+      },
+      "Instance": {
+        "fragment": "[LegacyNamespace=WebAssembly, Exposed=*]\ninterface Instance {\n  constructor(Module module, optional object importObject);\n  readonly attribute object exports;\n};",
+        "type": "interface",
+        "name": "Instance",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "module",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "Module"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "importObject",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "object"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "href": "https://webassembly.github.io/spec/js-api/#dom-instance-instance"
+          },
+          {
+            "type": "attribute",
+            "name": "exports",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "object"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-instance-exports"
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "LegacyNamespace",
+            "rhs": {
+              "type": "identifier",
+              "value": "WebAssembly"
+            },
+            "arguments": []
+          },
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#instance"
+      },
+      "MemoryDescriptor": {
+        "fragment": "dictionary MemoryDescriptor {\n  required [EnforceRange] unsigned long initial;\n  [EnforceRange] unsigned long maximum;\n};",
+        "type": "dictionary",
+        "name": "MemoryDescriptor",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "initial",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [
+                {
+                  "type": "extended-attribute",
+                  "name": "EnforceRange",
+                  "rhs": null,
+                  "arguments": []
+                }
+              ],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memorydescriptor-initial"
+          },
+          {
+            "type": "field",
+            "name": "maximum",
+            "extAttrs": [
+              {
+                "type": "extended-attribute",
+                "name": "EnforceRange",
+                "rhs": null,
+                "arguments": []
+              }
+            ],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "default": null,
+            "required": false,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memorydescriptor-maximum"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#dictdef-memorydescriptor"
+      },
+      "Memory": {
+        "fragment": "[LegacyNamespace=WebAssembly, Exposed=*]\ninterface Memory {\n  constructor(MemoryDescriptor descriptor);\n  unsigned long grow([EnforceRange] unsigned long delta);\n  ArrayBuffer toFixedLengthBuffer();\n  ArrayBuffer toResizableBuffer();\n  readonly attribute ArrayBuffer buffer;\n};",
+        "type": "interface",
+        "name": "Memory",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "descriptor",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "MemoryDescriptor"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memory-memory"
+          },
+          {
+            "type": "operation",
+            "name": "grow",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "delta",
+                "extAttrs": [
+                  {
+                    "type": "extended-attribute",
+                    "name": "EnforceRange",
+                    "rhs": null,
+                    "arguments": []
+                  }
+                ],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "unsigned long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memory-grow"
+          },
+          {
+            "type": "operation",
+            "name": "toFixedLengthBuffer",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "ArrayBuffer"
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memory-tofixedlengthbuffer"
+          },
+          {
+            "type": "operation",
+            "name": "toResizableBuffer",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "ArrayBuffer"
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memory-toresizablebuffer"
+          },
+          {
+            "type": "attribute",
+            "name": "buffer",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "ArrayBuffer"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-memory-buffer"
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "LegacyNamespace",
+            "rhs": {
+              "type": "identifier",
+              "value": "WebAssembly"
+            },
+            "arguments": []
+          },
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#memory"
+      },
+      "TableKind": {
+        "fragment": "enum TableKind {\n  \"externref\",\n  \"anyfunc\",\n  // Note: More values may be added in future iterations,\n  // e.g., typed function references, typed GC references\n};",
+        "type": "enum",
+        "name": "TableKind",
+        "values": [
+          {
+            "type": "enum-value",
+            "value": "externref",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-tablekind-externref"
+          },
+          {
+            "type": "enum-value",
+            "value": "anyfunc",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-tablekind-anyfunc"
+          }
+        ],
+        "extAttrs": [],
+        "href": "https://webassembly.github.io/spec/js-api/#enumdef-tablekind"
+      },
+      "TableDescriptor": {
+        "fragment": "dictionary TableDescriptor {\n  required TableKind element;\n  required [EnforceRange] unsigned long initial;\n  [EnforceRange] unsigned long maximum;\n};",
+        "type": "dictionary",
+        "name": "TableDescriptor",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "element",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "TableKind"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-tabledescriptor-element"
+          },
+          {
+            "type": "field",
+            "name": "initial",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [
+                {
+                  "type": "extended-attribute",
+                  "name": "EnforceRange",
+                  "rhs": null,
+                  "arguments": []
+                }
+              ],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-tabledescriptor-initial"
+          },
+          {
+            "type": "field",
+            "name": "maximum",
+            "extAttrs": [
+              {
+                "type": "extended-attribute",
+                "name": "EnforceRange",
+                "rhs": null,
+                "arguments": []
+              }
+            ],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "default": null,
+            "required": false,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-tabledescriptor-maximum"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#dictdef-tabledescriptor"
+      },
+      "Table": {
+        "fragment": "[LegacyNamespace=WebAssembly, Exposed=*]\ninterface Table {\n  constructor(TableDescriptor descriptor, optional any value);\n  unsigned long grow([EnforceRange] unsigned long delta, optional any value);\n  any get([EnforceRange] unsigned long index);\n  undefined set([EnforceRange] unsigned long index, optional any value);\n  readonly attribute unsigned long length;\n};",
+        "type": "interface",
+        "name": "Table",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "descriptor",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "TableDescriptor"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "any"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "href": "https://webassembly.github.io/spec/js-api/#dom-table-table"
+          },
+          {
+            "type": "operation",
+            "name": "grow",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "delta",
+                "extAttrs": [
+                  {
+                    "type": "extended-attribute",
+                    "name": "EnforceRange",
+                    "rhs": null,
+                    "arguments": []
+                  }
+                ],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "unsigned long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "any"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-table-grow"
+          },
+          {
+            "type": "operation",
+            "name": "get",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "any"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "index",
+                "extAttrs": [
+                  {
+                    "type": "extended-attribute",
+                    "name": "EnforceRange",
+                    "rhs": null,
+                    "arguments": []
+                  }
+                ],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "unsigned long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-table-get"
+          },
+          {
+            "type": "operation",
+            "name": "set",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "undefined"
+            },
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "index",
+                "extAttrs": [
+                  {
+                    "type": "extended-attribute",
+                    "name": "EnforceRange",
+                    "rhs": null,
+                    "arguments": []
+                  }
+                ],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "unsigned long"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "value",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "any"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-table-set"
+          },
+          {
+            "type": "attribute",
+            "name": "length",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-table-length"
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "LegacyNamespace",
+            "rhs": {
+              "type": "identifier",
+              "value": "WebAssembly"
+            },
+            "arguments": []
+          },
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#table"
+      },
+      "ValueType": {
+        "fragment": "enum ValueType {\n  \"i32\",\n  \"i64\",\n  \"f32\",\n  \"f64\",\n  \"v128\",\n  \"externref\",\n  \"anyfunc\",\n};",
+        "type": "enum",
+        "name": "ValueType",
+        "values": [
+          {
+            "type": "enum-value",
+            "value": "i32",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-i32"
+          },
+          {
+            "type": "enum-value",
+            "value": "i64",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-i64"
+          },
+          {
+            "type": "enum-value",
+            "value": "f32",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-f32"
+          },
+          {
+            "type": "enum-value",
+            "value": "f64",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-f64"
+          },
+          {
+            "type": "enum-value",
+            "value": "v128",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-v128"
+          },
+          {
+            "type": "enum-value",
+            "value": "externref",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-externref"
+          },
+          {
+            "type": "enum-value",
+            "value": "anyfunc",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-valuetype-anyfunc"
+          }
+        ],
+        "extAttrs": [],
+        "href": "https://webassembly.github.io/spec/js-api/#enumdef-valuetype"
+      },
+      "GlobalDescriptor": {
+        "fragment": "dictionary GlobalDescriptor {\n  required ValueType value;\n  boolean mutable = false;\n};",
+        "type": "dictionary",
+        "name": "GlobalDescriptor",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "field",
+            "name": "value",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "ValueType"
+            },
+            "default": null,
+            "required": true,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-globaldescriptor-value"
+          },
+          {
+            "type": "field",
+            "name": "mutable",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "boolean"
+            },
+            "default": {
+              "type": "boolean",
+              "value": false
+            },
+            "required": false,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-globaldescriptor-mutable"
+          }
+        ],
+        "extAttrs": [],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#dictdef-globaldescriptor"
+      },
+      "Global": {
+        "fragment": "[LegacyNamespace=WebAssembly, Exposed=*]\ninterface Global {\n  constructor(GlobalDescriptor descriptor, optional any v);\n  any valueOf();\n  attribute any value;\n};",
+        "type": "interface",
+        "name": "Global",
+        "inheritance": null,
+        "members": [
+          {
+            "type": "constructor",
+            "arguments": [
+              {
+                "type": "argument",
+                "name": "descriptor",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "GlobalDescriptor"
+                },
+                "default": null,
+                "optional": false,
+                "variadic": false
+              },
+              {
+                "type": "argument",
+                "name": "v",
+                "extAttrs": [],
+                "idlType": {
+                  "type": "argument-type",
+                  "extAttrs": [],
+                  "generic": "",
+                  "nullable": false,
+                  "union": false,
+                  "idlType": "any"
+                },
+                "default": null,
+                "optional": true,
+                "variadic": false
+              }
+            ],
+            "extAttrs": [],
+            "href": "https://webassembly.github.io/spec/js-api/#dom-global-global"
+          },
+          {
+            "type": "operation",
+            "name": "valueOf",
+            "idlType": {
+              "type": "return-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "any"
+            },
+            "arguments": [],
+            "extAttrs": [],
+            "special": "",
+            "href": "https://webassembly.github.io/spec/js-api/#dom-global-valueof"
+          },
+          {
+            "type": "attribute",
+            "name": "value",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "any"
+            },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": "https://webassembly.github.io/spec/js-api/#dom-global-value"
+          }
+        ],
+        "extAttrs": [
+          {
+            "type": "extended-attribute",
+            "name": "LegacyNamespace",
+            "rhs": {
+              "type": "identifier",
+              "value": "WebAssembly"
+            },
+            "arguments": []
+          },
+          {
+            "type": "extended-attribute",
+            "name": "Exposed",
+            "rhs": {
+              "type": "*",
+              "value": null
+            },
+            "arguments": []
+          }
+        ],
+        "partial": false,
+        "href": "https://webassembly.github.io/spec/js-api/#global"
+      }
+    },
+    "idlExtendedNames": {},
+    "globals": {},
+    "exposed": {
+      "*": [
+        "WebAssembly",
+        "Module",
+        "Instance",
+        "Memory",
+        "Table",
+        "Global"
+      ]
+    },
+    "dependencies": {
+      "WebAssemblyInstantiatedSource": [
+        "Module",
+        "Instance"
+      ],
+      "WebAssembly": [
+        "BufferSource",
+        "Module",
+        "WebAssemblyInstantiatedSource",
+        "Instance"
+      ],
+      "ModuleExportDescriptor": [
+        "ImportExportKind"
+      ],
+      "ModuleImportDescriptor": [
+        "ImportExportKind"
+      ],
+      "Module": [
+        "BufferSource",
+        "ModuleExportDescriptor",
+        "Module",
+        "ModuleImportDescriptor",
+        "ArrayBuffer"
+      ],
+      "Instance": [
+        "Module"
+      ],
+      "MemoryDescriptor": [],
+      "Memory": [
+        "MemoryDescriptor",
+        "ArrayBuffer"
+      ],
+      "TableDescriptor": [
+        "TableKind"
+      ],
+      "Table": [
+        "TableDescriptor"
+      ],
+      "GlobalDescriptor": [
+        "ValueType"
+      ],
+      "Global": [
+        "GlobalDescriptor"
+      ]
+    },
+    "externalDependencies": [
+      "BufferSource",
+      "ArrayBuffer"
+    ],
+    "hasObsoleteIdl": false
+  }
+}

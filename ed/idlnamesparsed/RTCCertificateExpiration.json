@@ -1,0 +1,15 @@
+{
+  "name": "RTCCertificateExpiration",
+  "type": "dictionary",
+  "defined": {
+    "spec": {
+      "title": "WebRTC: Real-Time Communication in Browsers",
+      "url": "https://www.w3.org/TR/webrtc/"
+    },
+    "fragment": "dictionary RTCCertificateExpiration {\n  [EnforceRange] unsigned long long expires;\n};",
+    "href": "https://w3c.github.io/webrtc-pc/#dom-rtccertificateexpiration"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

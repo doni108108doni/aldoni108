@@ -1,0 +1,14 @@
+{
+  "name": "PressureState",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "Compute Pressure Level 1",
+      "url": "https://www.w3.org/TR/compute-pressure/"
+    },
+    "fragment": "enum PressureState { \"nominal\", \"fair\", \"serious\", \"critical\" };",
+    "href": "https://w3c.github.io/compute-pressure/#dom-pressurestate"
+  },
+  "extended": [],
+  "includes": []
+}

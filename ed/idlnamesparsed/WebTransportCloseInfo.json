@@ -1,0 +1,15 @@
+{
+  "name": "WebTransportCloseInfo",
+  "type": "dictionary",
+  "defined": {
+    "spec": {
+      "title": "WebTransport",
+      "url": "https://www.w3.org/TR/webtransport/"
+    },
+    "fragment": "dictionary WebTransportCloseInfo {\n  unsigned long closeCode = 0;\n  USVString reason = \"\";\n};",
+    "href": "https://w3c.github.io/webtransport/#dictdef-webtransportcloseinfo"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "LaunchConsumer",
+  "type": "callback",
+  "defined": {
+    "spec": {
+      "title": "Web App Launch Handler API",
+      "url": "https://wicg.github.io/web-app-launch/"
+    },
+    "fragment": "callback LaunchConsumer = any (LaunchParams params);",
+    "href": "https://wicg.github.io/web-app-launch/#dom-launchconsumer"
+  },
+  "extended": [],
+  "includes": []
+}

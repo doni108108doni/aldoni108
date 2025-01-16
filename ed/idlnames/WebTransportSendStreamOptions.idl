@@ -1,0 +1,6 @@
+// Source: WebTransport (https://www.w3.org/TR/webtransport/)
+dictionary WebTransportSendStreamOptions {
+  WebTransportSendGroup? sendGroup = null;
+  long long sendOrder = 0;
+  boolean waitUntilAvailable = false;
+};

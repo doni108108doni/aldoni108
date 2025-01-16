@@ -1,0 +1,8 @@
+// Source: Media Session (https://www.w3.org/TR/mediasession/)
+dictionary MediaMetadataInit {
+  DOMString title = "";
+  DOMString artist = "";
+  DOMString album = "";
+  sequence<MediaImage> artwork = [];
+  sequence<ChapterInformationInit> chapterInfo = [];
+};

@@ -1,0 +1,14 @@
+{
+  "name": "TrustedType",
+  "type": "typedef",
+  "defined": {
+    "spec": {
+      "title": "Trusted Types",
+      "url": "https://www.w3.org/TR/trusted-types/"
+    },
+    "fragment": "typedef (TrustedHTML or TrustedScript or TrustedScriptURL) TrustedType;",
+    "href": "https://w3c.github.io/trusted-types/dist/spec/#typedefdef-trustedtype"
+  },
+  "extended": [],
+  "includes": []
+}

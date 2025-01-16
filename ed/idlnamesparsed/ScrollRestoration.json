@@ -1,0 +1,14 @@
+{
+  "name": "ScrollRestoration",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "HTML Standard",
+      "url": "https://html.spec.whatwg.org/multipage/"
+    },
+    "fragment": "enum ScrollRestoration { \"auto\", \"manual\" };",
+    "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#scrollrestoration"
+  },
+  "extended": [],
+  "includes": []
+}

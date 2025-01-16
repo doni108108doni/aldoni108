@@ -1,0 +1,17 @@
+// Source: Media Session (https://www.w3.org/TR/mediasession/)
+[Exposed=Window]
+interface MediaSession {
+  attribute MediaMetadata? metadata;
+
+  attribute MediaSessionPlaybackState playbackState;
+
+  undefined setActionHandler(MediaSessionAction action, MediaSessionActionHandler? handler);
+
+  undefined setPositionState(optional MediaPositionState state = {});
+
+  Promise<undefined> setMicrophoneActive(boolean active);
+
+  Promise<undefined> setCameraActive(boolean active);
+
+  Promise<undefined> setScreenshareActive(boolean active);
+};

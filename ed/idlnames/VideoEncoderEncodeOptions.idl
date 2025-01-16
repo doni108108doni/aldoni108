@@ -1,0 +1,24 @@
+// Source: WebCodecs (https://www.w3.org/TR/webcodecs/)
+dictionary VideoEncoderEncodeOptions {
+  boolean keyFrame = false;
+};
+
+// Source: AV1 WebCodecs Registration (https://www.w3.org/TR/webcodecs-av1-codec-registration/)
+partial dictionary VideoEncoderEncodeOptions {
+  VideoEncoderEncodeOptionsForAv1 av1;
+};
+
+// Source: AVC (H.264) WebCodecs Registration (https://www.w3.org/TR/webcodecs-avc-codec-registration/)
+partial dictionary VideoEncoderEncodeOptions {
+  VideoEncoderEncodeOptionsForAvc avc;
+};
+
+// Source: HEVC (H.265) WebCodecs Registration (https://www.w3.org/TR/webcodecs-hevc-codec-registration/)
+partial dictionary VideoEncoderEncodeOptions {
+  VideoEncoderEncodeOptionsForHevc hevc;
+};
+
+// Source: VP9 WebCodecs Registration (https://www.w3.org/TR/webcodecs-vp9-codec-registration/)
+partial dictionary VideoEncoderEncodeOptions {
+  VideoEncoderEncodeOptionsForVp9 vp9;
+};

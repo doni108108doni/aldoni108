@@ -1,0 +1,9 @@
+// Source: WebAssembly JavaScript Interface (https://www.w3.org/TR/wasm-js-api-2/)
+[LegacyNamespace=WebAssembly, Exposed=*]
+interface Memory {
+  constructor(MemoryDescriptor descriptor);
+  unsigned long grow([EnforceRange] unsigned long delta);
+  ArrayBuffer toFixedLengthBuffer();
+  ArrayBuffer toResizableBuffer();
+  readonly attribute ArrayBuffer buffer;
+};
