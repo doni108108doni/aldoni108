@@ -1,0 +1,15 @@
+{
+  "name": "WebTransportSendStreamStats",
+  "type": "dictionary",
+  "defined": {
+    "spec": {
+      "title": "WebTransport",
+      "url": "https://www.w3.org/TR/webtransport/"
+    },
+    "fragment": "dictionary WebTransportSendStreamStats {\n  unsigned long long bytesWritten = 0;\n  unsigned long long bytesSent = 0;\n  unsigned long long bytesAcknowledged = 0;\n};",
+    "href": "https://w3c.github.io/webtransport/#dictdef-webtransportsendstreamstats"
+  },
+  "extended": [],
+  "inheritance": null,
+  "includes": []
+}

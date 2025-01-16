@@ -1,0 +1,44 @@
+{
+  "spec": {
+    "title": "WebGL Specification",
+    "url": "https://registry.khronos.org/webgl/specs/latest/1.0/"
+  },
+  "events": [
+    {
+      "interface": "WebGLContextEvent",
+      "bubbles": false,
+      "type": "webglcontextlost",
+      "targets": [
+        "HTMLCanvasElement",
+        "OffscreenCanvas"
+      ],
+      "src": {
+        "href": "https://registry.khronos.org/webgl/specs/latest/1.0/#CONTEXT_LOST"
+      }
+    },
+    {
+      "interface": "WebGLContextEvent",
+      "bubbles": false,
+      "type": "webglcontextrestored",
+      "targets": [
+        "HTMLCanvasElement",
+        "OffscreenCanvas"
+      ],
+      "src": {
+        "href": "https://registry.khronos.org/webgl/specs/latest/1.0/#CONTEXT_RESTORED"
+      }
+    },
+    {
+      "interface": "WebGLContextEvent",
+      "bubbles": false,
+      "type": "webglcontextcreationerror",
+      "targets": [
+        "HTMLCanvasElement",
+        "OffscreenCanvas"
+      ],
+      "src": {
+        "href": "https://registry.khronos.org/webgl/specs/latest/1.0/#CONTEXT_CREATION_ERROR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+// Source: Screen Capture (https://www.w3.org/TR/screen-capture/)
+[Exposed=Window, SecureContext]
+interface CaptureController : EventTarget {
+  constructor();
+  undefined setFocusBehavior(CaptureStartFocusBehavior focusBehavior);
+};
+
+// Source: Captured Mouse Events (https://screen-share.github.io/captured-mouse-events/)
+partial interface CaptureController {
+  attribute EventHandler oncapturedmousechange;
+};

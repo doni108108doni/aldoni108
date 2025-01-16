@@ -1,0 +1,37 @@
+{
+  "name": "PaymentResponse",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "Payment Request API",
+      "url": "https://www.w3.org/TR/payment-request/"
+    },
+    "fragment": "[SecureContext, Exposed=Window]\ninterface PaymentResponse : EventTarget  {\n  [Default] object toJSON();\n\n  readonly attribute DOMString requestId;\n  readonly attribute DOMString methodName;\n  readonly attribute object details;\n  readonly attribute ContactAddress? shippingAddress;\n  readonly attribute DOMString? shippingOption;\n  readonly attribute DOMString? payerName;\n  readonly attribute DOMString? payerEmail;\n  readonly attribute DOMString? payerPhone;\n\n  [NewObject]\n  Promise<undefined> complete(\n    optional PaymentComplete result = \"unknown\",\n    optional PaymentCompleteDetails details = {}\n  );\n  [NewObject]\n  Promise<undefined> retry(optional PaymentValidationErrors errorFields = {});\n\n  attribute EventHandler onpayerdetailchange;\n};",
+    "href": "https://w3c.github.io/payment-request/#dom-paymentresponse"
+  },
+  "extended": [],
+  "inheritance": {
+    "name": "EventTarget",
+    "type": "interface",
+    "defined": {
+      "spec": {
+        "title": "DOM Standard",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      "fragment": "[Exposed=*]\ninterface EventTarget {\n  constructor();\n\n  undefined addEventListener(DOMString type, EventListener? callback, optional (AddEventListenerOptions or boolean) options = {});\n  undefined removeEventListener(DOMString type, EventListener? callback, optional (EventListenerOptions or boolean) options = {});\n  boolean dispatchEvent(Event event);\n};",
+      "href": "https://dom.spec.whatwg.org/#eventtarget"
+    },
+    "extended": [
+      {
+        "spec": {
+          "title": "Observable",
+          "url": "https://wicg.github.io/observable/"
+        },
+        "fragment": "partial interface EventTarget {\n  Observable when(DOMString type, optional ObservableEventListenerOptions options = {});\n};"
+      }
+    ],
+    "inheritance": null,
+    "includes": []
+  },
+  "includes": []
+}

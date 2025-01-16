@@ -1,0 +1,12 @@
+// Source: HTML Sanitizer API (https://wicg.github.io/sanitizer-api/)
+dictionary SanitizerConfig {
+  sequence<SanitizerElementWithAttributes> elements;
+  sequence<SanitizerElement> removeElements;
+  sequence<SanitizerElement> replaceWithChildrenElements;
+
+  sequence<SanitizerAttribute> attributes;
+  sequence<SanitizerAttribute> removeAttributes;
+
+  boolean comments;
+  boolean dataAttributes;
+};

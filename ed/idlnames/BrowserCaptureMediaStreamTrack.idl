@@ -1,0 +1,12 @@
+// Source: Region Capture (https://www.w3.org/TR/mediacapture-region/)
+[Exposed = Window]
+interface BrowserCaptureMediaStreamTrack : MediaStreamTrack {
+  Promise<undefined> cropTo(CropTarget? cropTarget);
+  BrowserCaptureMediaStreamTrack clone();
+};
+
+// Source: Element Capture (https://screen-share.github.io/element-capture/)
+[Exposed = Window]
+partial interface BrowserCaptureMediaStreamTrack {
+  Promise<undefined> restrictTo(RestrictionTarget? RestrictionTarget);
+};

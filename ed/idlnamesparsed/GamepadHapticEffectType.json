@@ -1,0 +1,14 @@
+{
+  "name": "GamepadHapticEffectType",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "Gamepad",
+      "url": "https://www.w3.org/TR/gamepad/"
+    },
+    "fragment": "enum GamepadHapticEffectType {\n  \"dual-rumble\",\n  \"trigger-rumble\"\n};",
+    "href": "https://w3c.github.io/gamepad/#dom-gamepadhapticeffecttype"
+  },
+  "extended": [],
+  "includes": []
+}

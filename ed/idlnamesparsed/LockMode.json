@@ -1,0 +1,14 @@
+{
+  "name": "LockMode",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "Web Locks API",
+      "url": "https://www.w3.org/TR/web-locks/"
+    },
+    "fragment": "enum LockMode { \"shared\", \"exclusive\" };",
+    "href": "https://w3c.github.io/web-locks/#enumdef-lockmode"
+  },
+  "extended": [],
+  "includes": []
+}

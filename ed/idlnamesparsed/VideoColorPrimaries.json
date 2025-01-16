@@ -1,0 +1,14 @@
+{
+  "name": "VideoColorPrimaries",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "WebCodecs",
+      "url": "https://www.w3.org/TR/webcodecs/"
+    },
+    "fragment": "enum VideoColorPrimaries {\n  \"bt709\",\n  \"bt470bg\",\n  \"smpte170m\",\n  \"bt2020\",\n  \"smpte432\",\n};",
+    "href": "https://w3c.github.io/webcodecs/#enumdef-videocolorprimaries"
+  },
+  "extended": [],
+  "includes": []
+}
