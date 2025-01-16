@@ -1,0 +1,216 @@
+{
+  "spec": {
+    "title": "Web MIDI API",
+    "url": "https://webaudio.github.io/web-midi-api/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://webaudio.github.io/web-midi-api/#title",
+      "level": 1,
+      "title": "Web MIDI API"
+    },
+    {
+      "id": "toc",
+      "href": "https://webaudio.github.io/web-midi-api/#toc",
+      "level": 2,
+      "title": "Table of Contents"
+    },
+    {
+      "id": "introduction",
+      "href": "https://webaudio.github.io/web-midi-api/#introduction",
+      "level": 2,
+      "title": "Introduction",
+      "number": "1"
+    },
+    {
+      "id": "conformance",
+      "href": "https://webaudio.github.io/web-midi-api/#conformance",
+      "level": 2,
+      "title": "Conformance",
+      "number": "2"
+    },
+    {
+      "id": "terminology",
+      "href": "https://webaudio.github.io/web-midi-api/#terminology",
+      "level": 2,
+      "title": "Terminology",
+      "number": "3"
+    },
+    {
+      "id": "obtaining-access-to-midi-devices",
+      "href": "https://webaudio.github.io/web-midi-api/#obtaining-access-to-midi-devices",
+      "level": 2,
+      "title": "Obtaining Access to MIDI Devices",
+      "number": "4"
+    },
+    {
+      "id": "permissions-integration",
+      "href": "https://webaudio.github.io/web-midi-api/#permissions-integration",
+      "level": 3,
+      "title": "Permissions Integration",
+      "number": "4.1"
+    },
+    {
+      "id": "permissions-policy-integration",
+      "href": "https://webaudio.github.io/web-midi-api/#permissions-policy-integration",
+      "level": 3,
+      "title": "Permissions Policy Integration",
+      "number": "4.2"
+    },
+    {
+      "id": "extensions-to-the-navigator-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#extensions-to-the-navigator-interface",
+      "level": 3,
+      "title": "Extensions to the Navigator interface",
+      "number": "4.3"
+    },
+    {
+      "id": "midioptions-dictionary",
+      "href": "https://webaudio.github.io/web-midi-api/#midioptions-dictionary",
+      "level": 4,
+      "title": "MIDIOptions Dictionary",
+      "number": "4.3.1"
+    },
+    {
+      "id": "the-midi-api",
+      "href": "https://webaudio.github.io/web-midi-api/#the-midi-api",
+      "level": 2,
+      "title": "The MIDI API",
+      "number": "5"
+    },
+    {
+      "id": "midiinputmap-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midiinputmap-interface",
+      "level": 3,
+      "title": "MIDIInputMap Interface",
+      "number": "5.1"
+    },
+    {
+      "id": "midioutputmap-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midioutputmap-interface",
+      "level": 3,
+      "title": "MIDIOutputMap Interface",
+      "number": "5.2"
+    },
+    {
+      "id": "midiaccess-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midiaccess-interface",
+      "level": 3,
+      "title": "MIDIAccess Interface",
+      "number": "5.3"
+    },
+    {
+      "id": "midiport-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midiport-interface",
+      "level": 3,
+      "title": "MIDIPort Interface",
+      "number": "5.4"
+    },
+    {
+      "id": "midiinput-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midiinput-interface",
+      "level": 4,
+      "title": "MIDIInput Interface",
+      "number": "5.4.1"
+    },
+    {
+      "id": "midioutput-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midioutput-interface",
+      "level": 4,
+      "title": "MIDIOutput Interface",
+      "number": "5.4.2"
+    },
+    {
+      "id": "midiporttype-enum",
+      "href": "https://webaudio.github.io/web-midi-api/#midiporttype-enum",
+      "level": 4,
+      "title": "MIDIPortType Enum",
+      "number": "5.4.3"
+    },
+    {
+      "id": "midiportdevicestate-enum",
+      "href": "https://webaudio.github.io/web-midi-api/#midiportdevicestate-enum",
+      "level": 4,
+      "title": "MIDIPortDeviceState Enum",
+      "number": "5.4.4"
+    },
+    {
+      "id": "midiportconnectionstate-enum",
+      "href": "https://webaudio.github.io/web-midi-api/#midiportconnectionstate-enum",
+      "level": 4,
+      "title": "MIDIPortConnectionState Enum",
+      "number": "5.4.5"
+    },
+    {
+      "id": "midimessageevent-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midimessageevent-interface",
+      "level": 3,
+      "title": "MIDIMessageEvent Interface",
+      "number": "5.5"
+    },
+    {
+      "id": "midimessageeventinit-dictionary",
+      "href": "https://webaudio.github.io/web-midi-api/#midimessageeventinit-dictionary",
+      "level": 4,
+      "title": "MIDIMessageEventInit Dictionary",
+      "number": "5.5.1"
+    },
+    {
+      "id": "midiconnectionevent-interface",
+      "href": "https://webaudio.github.io/web-midi-api/#midiconnectionevent-interface",
+      "level": 3,
+      "title": "MIDIConnectionEvent Interface",
+      "number": "5.6"
+    },
+    {
+      "id": "midiconnectioneventinit-dictionary",
+      "href": "https://webaudio.github.io/web-midi-api/#midiconnectioneventinit-dictionary",
+      "level": 4,
+      "title": "MIDIConnectionEventInit Dictionary",
+      "number": "5.6.1"
+    },
+    {
+      "id": "privacy-considerations",
+      "href": "https://webaudio.github.io/web-midi-api/#privacy-considerations",
+      "level": 2,
+      "title": "Privacy Considerations",
+      "number": "6"
+    },
+    {
+      "id": "security-considerations",
+      "href": "https://webaudio.github.io/web-midi-api/#security-considerations",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "7"
+    },
+    {
+      "id": "changelog",
+      "href": "https://webaudio.github.io/web-midi-api/#changelog",
+      "level": 2,
+      "title": "Changelog",
+      "number": "8"
+    },
+    {
+      "id": "changes-since-working-draft-17-march-2015",
+      "href": "https://webaudio.github.io/web-midi-api/#changes-since-working-draft-17-march-2015",
+      "level": 3,
+      "title": "Changes since Working Draft 17 March 2015",
+      "number": "8.1"
+    },
+    {
+      "id": "references",
+      "href": "https://webaudio.github.io/web-midi-api/#references",
+      "level": 2,
+      "title": "References",
+      "number": "A"
+    },
+    {
+      "id": "normative-references",
+      "href": "https://webaudio.github.io/web-midi-api/#normative-references",
+      "level": 3,
+      "title": "Normative references",
+      "number": "A.1"
+    }
+  ]
+}
