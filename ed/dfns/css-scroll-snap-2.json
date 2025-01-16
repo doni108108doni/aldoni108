@@ -1,0 +1,972 @@
+{
+  "spec": {
+    "title": "CSS Scroll Snap Module Level 2",
+    "url": "https://drafts.csswg.org/css-scroll-snap-2/"
+  },
+  "dfns": [
+    {
+      "id": "propdef-scroll-start",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start",
+      "linkingText": [
+        "scroll-start"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start",
+        "title": "The scroll-start property",
+        "number": "3.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-scroll-start-auto",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-start-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-start",
+        "scroll-start-x",
+        "scroll-start-y",
+        "scroll-start-block",
+        "scroll-start-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start",
+        "title": "The scroll-start property",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-scroll-start-start",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-start-start",
+      "linkingText": [
+        "start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-start",
+        "scroll-start-x",
+        "scroll-start-y",
+        "scroll-start-block",
+        "scroll-start-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start",
+        "title": "The scroll-start property",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-scroll-start-center",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-start-center",
+      "linkingText": [
+        "center"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-start",
+        "scroll-start-x",
+        "scroll-start-y",
+        "scroll-start-block",
+        "scroll-start-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start",
+        "title": "The scroll-start property",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-scroll-start-end",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-start-end",
+      "linkingText": [
+        "end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-start",
+        "scroll-start-x",
+        "scroll-start-y",
+        "scroll-start-block",
+        "scroll-start-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start",
+        "title": "The scroll-start property",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-scroll-start-target",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-target",
+      "linkingText": [
+        "scroll-start-target"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target",
+        "title": "The scroll-start-target property",
+        "number": "3.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-scroll-start-target-none",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-start-target-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-start-target",
+        "scroll-start-target-x",
+        "scroll-start-target-y",
+        "scroll-start-target-block",
+        "scroll-start-target-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target",
+        "title": "The scroll-start-target property",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-scroll-start-target-auto",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#valdef-scroll-start-target-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-start-target",
+        "scroll-start-target-x",
+        "scroll-start-target-y",
+        "scroll-start-target-block",
+        "scroll-start-target-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target",
+        "title": "The scroll-start-target property",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "selectordef-snapped",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#selectordef-snapped",
+      "linkingText": [
+        ":snapped"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapped",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapped",
+        "title": "The Snapped-element Pseudo-class: :snapped",
+        "number": "4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "selectordef-snapped-x",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#selectordef-snapped-x",
+      "linkingText": [
+        ":snapped-x"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapped",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapped",
+        "title": "The Snapped-element Pseudo-class: :snapped",
+        "number": "4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "selectordef-snapped-y",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#selectordef-snapped-y",
+      "linkingText": [
+        ":snapped-y"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapped",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapped",
+        "title": "The Snapped-element Pseudo-class: :snapped",
+        "number": "4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "selectordef-snapped-inline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#selectordef-snapped-inline",
+      "linkingText": [
+        ":snapped-inline"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapped",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapped",
+        "title": "The Snapped-element Pseudo-class: :snapped",
+        "number": "4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "selectordef-snapped-block",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#selectordef-snapped-block",
+      "linkingText": [
+        ":snapped-block"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapped",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapped",
+        "title": "The Snapped-element Pseudo-class: :snapped",
+        "number": "4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "eventdef-scrollsnapchange-scrollsnapchange",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventdef-scrollsnapchange-scrollsnapchange",
+      "linkingText": [
+        "scrollsnapchange"
+      ],
+      "localLinkingText": [],
+      "type": "event",
+      "for": [
+        "scrollsnapchange"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange-and-scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange-and-scrollsnapchanging",
+        "title": "scrollsnapchange and scrollsnapchanging",
+        "number": "5.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "eventdef-scrollsnapchanging-scrollsnapchanging",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventdef-scrollsnapchanging-scrollsnapchanging",
+      "linkingText": [
+        "scrollsnapchanging"
+      ],
+      "localLinkingText": [],
+      "type": "event",
+      "for": [
+        "scrollsnapchanging"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange-and-scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange-and-scrollsnapchanging",
+        "title": "scrollsnapchange and scrollsnapchanging",
+        "number": "5.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "document-pending-scrollsnapchange-event-targets",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#document-pending-scrollsnapchange-event-targets",
+      "linkingText": [
+        "pending scrollsnapchange event targets"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange",
+        "title": "scrollsnapchange",
+        "number": "5.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "scrollsnapchangetargetblock",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchangetargetblock",
+      "linkingText": [
+        "scrollsnapchangeTargetBlock"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange",
+        "title": "scrollsnapchange",
+        "number": "5.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "scrollsnapchangetargetinline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchangetargetinline",
+      "linkingText": [
+        "scrollsnapchangeTargetInline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange",
+        "title": "scrollsnapchange",
+        "number": "5.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-update-scrollsnapchange-targets",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#document-update-scrollsnapchange-targets",
+      "linkingText": [
+        "update scrollsnapchange targets"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange",
+        "title": "scrollsnapchange",
+        "number": "5.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dispatch-pending-scrollsnapchange-events",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dispatch-pending-scrollsnapchange-events",
+      "linkingText": [
+        "dispatch pending scrollsnapchange events"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchange",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange",
+        "title": "scrollsnapchange",
+        "number": "5.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "eventual-snap-target",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventual-snap-target",
+      "linkingText": [
+        "eventual snap target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+        "title": "scrollsnapchanging",
+        "number": "5.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-pending-scrollsnapchanging-event-targets",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#document-pending-scrollsnapchanging-event-targets",
+      "linkingText": [
+        "pending scrollsnapchanging event targets"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+        "title": "scrollsnapchanging",
+        "number": "5.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "scrollsnapchangingtargetblock",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchangingtargetblock",
+      "linkingText": [
+        "scrollsnapchangingTargetBlock"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+        "title": "scrollsnapchanging",
+        "number": "5.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "scrollsnapchangingtargetinline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchangingtargetinline",
+      "linkingText": [
+        "scrollsnapchangingTargetInline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+        "title": "scrollsnapchanging",
+        "number": "5.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-update-scrollsnapchanging-targets",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#document-update-scrollsnapchanging-targets",
+      "linkingText": [
+        "update scrollsnapchanging targets"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+        "title": "scrollsnapchanging",
+        "number": "5.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dispatch-pending-scrollsnapchanging-events",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dispatch-pending-scrollsnapchanging-events",
+      "linkingText": [
+        "dispatch pending scrollsnapchanging events"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scrollsnapchanging",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging",
+        "title": "scrollsnapchanging",
+        "number": "5.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dictdef-snapeventinit",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dictdef-snapeventinit",
+      "linkingText": [
+        "SnapEventInit"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-snapeventinit-snaptargetblock",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapeventinit-snaptargetblock",
+      "linkingText": [
+        "snapTargetBlock"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SnapEventInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-snapeventinit-snaptargetinline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapeventinit-snaptargetinline",
+      "linkingText": [
+        "snapTargetInline"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SnapEventInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "snapevent",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent",
+      "linkingText": [
+        "SnapEvent"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-snapevent-snapevent",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapevent-snapevent",
+      "linkingText": [
+        "SnapEvent(type, eventInitDict)",
+        "constructor(type, eventInitDict)",
+        "SnapEvent(type)",
+        "constructor(type)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "SnapEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-snapevent-snapevent-type-eventinitdict-type",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapevent-snapevent-type-eventinitdict-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "SnapEvent/SnapEvent(type, eventInitDict)",
+        "SnapEvent/constructor(type, eventInitDict)",
+        "SnapEvent/SnapEvent(type)",
+        "SnapEvent/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-snapevent-snapevent-type-eventinitdict-eventinitdict",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapevent-snapevent-type-eventinitdict-eventinitdict",
+      "linkingText": [
+        "eventInitDict"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "SnapEvent/SnapEvent(type, eventInitDict)",
+        "SnapEvent/constructor(type, eventInitDict)",
+        "SnapEvent/SnapEvent(type)",
+        "SnapEvent/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-snapevent-snaptargetblock",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapevent-snaptargetblock",
+      "linkingText": [
+        "snapTargetBlock"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "SnapEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-snapevent-snaptargetinline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-snapevent-snaptargetinline",
+      "linkingText": [
+        "snapTargetInline"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "SnapEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "snapevent-interface",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#snapevent-interface",
+        "title": "SnapEvent interface",
+        "number": "5.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-scroll-start-x",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-x",
+      "linkingText": [
+        "scroll-start-x"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-longhands-physical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-longhands-physical",
+        "title": "Physical Longhands for scroll-start"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-y",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-y",
+      "linkingText": [
+        "scroll-start-y"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-longhands-physical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-longhands-physical",
+        "title": "Physical Longhands for scroll-start"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-inline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-inline",
+      "linkingText": [
+        "scroll-start-inline"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-longhands-logical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-longhands-logical",
+        "title": "Flow-relative Longhands for scroll-start"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-block",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-block",
+      "linkingText": [
+        "scroll-start-block"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-longhands-logical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-longhands-logical",
+        "title": "Flow-relative Longhands for scroll-start"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-target-block",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-target-block",
+      "linkingText": [
+        "scroll-start-target-block"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target-longhands-logical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target-longhands-logical",
+        "title": "Flow-relative Longhands for scroll-start-target"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-target-inline",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-target-inline",
+      "linkingText": [
+        "scroll-start-target-inline"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target-longhands-logical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target-longhands-logical",
+        "title": "Flow-relative Longhands for scroll-start-target"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-target-x",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-target-x",
+      "linkingText": [
+        "scroll-start-target-x"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target-longhands-physical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target-longhands-physical",
+        "title": "Physical Longhands for scroll-start-target"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-scroll-start-target-y",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#propdef-scroll-start-target-y",
+      "linkingText": [
+        "scroll-start-target-y"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-start-target-longhands-physical",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#scroll-start-target-longhands-physical",
+        "title": "Physical Longhands for scroll-start-target"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-document-onsnapchanged",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-document-onsnapchanged",
+      "linkingText": [
+        "onsnapchanged"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Document",
+        "Element",
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "event-handlers-on-elements-document-and-window-objects",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#event-handlers-on-elements-document-and-window-objects",
+        "title": "Event handlers on elements, Document objects and Window objects"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-document-onsnapchanging",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-document-onsnapchanging",
+      "linkingText": [
+        "onsnapchanging"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Document",
+        "Element",
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "event-handlers-on-elements-document-and-window-objects",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#event-handlers-on-elements-document-and-window-objects",
+        "title": "Event handlers on elements, Document objects and Window objects"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-globaleventhandlers-onsnapchanged",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-globaleventhandlers-onsnapchanged",
+      "linkingText": [
+        "onsnapchanged"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GlobalEventHandlers"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-globaleventhandlers-idl",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#interface-globaleventhandlers-idl",
+        "title": "IDL Definition"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-globaleventhandlers-onsnapchanging",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#dom-globaleventhandlers-onsnapchanging",
+      "linkingText": [
+        "onsnapchanging"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GlobalEventHandlers"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-globaleventhandlers-idl",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#interface-globaleventhandlers-idl",
+        "title": "IDL Definition"
+      },
+      "definedIn": "pre"
+    }
+  ]
+}
