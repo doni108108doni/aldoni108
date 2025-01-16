@@ -1,0 +1,51 @@
+{
+  "spec": {
+    "title": "Web Cryptography API",
+    "url": "https://www.w3.org/TR/WebCryptoAPI/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "CDSA",
+        "url": "http://www.opengroup.org/security/cdsa.htm"
+      },
+      {
+        "name": "CNG",
+        "url": "http://msdn.microsoft.com/en-us/library/windows/desktop/aa376210(v=vs.85).aspx"
+      },
+      {
+        "name": "CryptoAPI",
+        "url": "http://msdn.microsoft.com/en-us/library/aa380256.aspx"
+      },
+      {
+        "name": "DRAFT-TLS-OBC",
+        "url": "http://tools.ietf.org/html/draft-balfanz-tls-obc-01"
+      },
+      {
+        "name": "FileAPI",
+        "url": "https://www.w3.org/TR/FileAPI/"
+      },
+      {
+        "name": "IndexedDatabaseAPI",
+        "url": "https://www.w3.org/TR/IndexedDB/"
+      },
+      {
+        "name": "PKCS11",
+        "url": "http://www.onefs.com/emc-plus/rsa-labs/standards-initiatives/pkcs-11-cryptographic-token-interface-standard.htm"
+      },
+      {
+        "name": "RFC4055",
+        "url": "https://tools.ietf.org/html/rfc4055"
+      },
+      {
+        "name": "RFC5756",
+        "url": "https://tools.ietf.org/html/rfc5756"
+      },
+      {
+        "name": "RFC5958",
+        "url": "https://tools.ietf.org/html/rfc5958"
+      }
+    ],
+    "informative": []
+  }
+}
