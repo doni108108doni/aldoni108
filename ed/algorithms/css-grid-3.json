@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "title": "CSS Grid Layout Module Level 3",
+    "url": "https://drafts.csswg.org/css-grid-3/"
+  },
+  "algorithms": [
+    {
+      "html": "For each item in <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-display-4/#order-modified-document-order\" id=\"ref-for-order-modified-document-order\">order-modified document order</a>:",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "Otherwise, resolve its <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#grid-axis\" id=\"ref-for-grid-axis①⑦\">grid axis</a> placement using these substeps:",
+          "rationale": "find",
+          "steps": [
+            {
+              "html": "Starting at the first <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#grid-axis\" id=\"ref-for-grid-axis①⑧\">grid axis</a> line in the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-2/#implicit-grid\" id=\"ref-for-implicit-grid①\">implicit grid</a>."
+            },
+            {
+              "html": "Find the largest <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#running-position\" id=\"ref-for-running-position\">running position</a> of the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#grid-axis\" id=\"ref-for-grid-axis①⑨\">grid axis</a> tracks\n\t\t\t\t\tthat the item would span if it were placed at this line,\n\t\t\t\t\tand call this position <var>max_pos</var>."
+            },
+            {
+              "html": "Increment the line number and repeat step 2\n\t\t\t\t\tuntil the item would no longer fit inside the grid."
+            },
+            {
+              "html": "Pick the line that resulted in the smallest <var>max_pos</var> as the item’s definite placement in the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#grid-axis\" id=\"ref-for-grid-axis②⓪\">grid axis</a>.\n\t\t\t\t\tIf multiple lines qualify,\n\t\t\t\t\tchoose the first one greater than or equal to the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#auto-placement-cursor\" id=\"ref-for-auto-placement-cursor\">auto-placement cursor</a>,\n\t\t\t\t\tor if there are none such,\n\t\t\t\t\tchoose the first one."
+            },
+            {
+              "html": "Update the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#auto-placement-cursor\" id=\"ref-for-auto-placement-cursor①\">auto-placement cursor</a> to point to item’s last line;\n\t\t\t\t\thowever if this is the last line in the grid,\n\t\t\t\t\tswitch it to the first line."
+            }
+          ]
+        },
+        {
+          "html": "Place the item in its <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#grid-axis\" id=\"ref-for-grid-axis②①\">grid axis</a> tracks\n\t\t\tat the maximum of the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#running-position\" id=\"ref-for-running-position①\">running position</a>s\n\t\t\tof the tracks it spans."
+        },
+        {
+          "html": "Calculate the size of the item’s <a href=\"https://drafts.csswg.org/css-grid-3/#containing-block\">containing block</a> and then layout the item.\n\t\t\tSet the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#running-position\" id=\"ref-for-running-position②\">running position</a> of the spanned <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-grid-3/#grid-axis\" id=\"ref-for-grid-axis②②\">grid axis</a> tracks\n\t\t\tto <code><var>max_pos</var> + <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-sizing-3/#outer-size\" id=\"ref-for-outer-size\">outer size</a> + <a class=\"property css\" data-link-type=\"property\" href=\"https://drafts.csswg.org/css-align-3/#propdef-grid-gap\" id=\"ref-for-propdef-grid-gap\">grid-gap</a></code>."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "spec": {
+    "title": "AV1 Image File Format (AVIF)",
+    "url": "https://aomediacodec.github.io/av1-avif/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://aomediacodec.github.io/av1-isobmff/": {},
+      "https://aomediacodec.github.io/av1-spec/av1-spec.pdf": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://www.iana.org/assignments/media-types/image/avif": {},
+      "https://www.iso.org/standard/66067.html": {},
+      "https://www.iso.org/standard/68960.html": {},
+      "https://www.iso.org/standard/74417.html": {}
+    },
+    "autolinks": {
+      "https://aomediacodec.github.io/av1-isobmff/": {},
+      "https://aomediacodec.github.io/av1-spec/av1-spec.pdf": {},
+      "https://www.iso.org/standard/66067.html": {},
+      "https://www.iso.org/standard/68960.html": {},
+      "https://www.iso.org/standard/74417.html": {}
+    }
+  }
+}
