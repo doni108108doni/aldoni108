@@ -1,0 +1,126 @@
+{
+  "spec": {
+    "title": "CSS Grid Layout Module Level 3",
+    "url": "https://drafts.csswg.org/css-grid-3/"
+  },
+  "dfns": [
+    {
+      "id": "masonry-layout",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout",
+      "linkingText": [
+        "Masonry layout"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "background",
+        "href": "https://drafts.csswg.org/css-grid-3/#background",
+        "title": "Background and Motivation",
+        "number": "1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "masonry-axis",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-axis",
+      "linkingText": [
+        "masonry axis"
+      ],
+      "localLinkingText": [
+        "masonry-axis"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "grid-template-masonry",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-template-masonry",
+        "title": "Masonry Layout",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "grid-axis",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-axis",
+      "linkingText": [
+        "grid axis"
+      ],
+      "localLinkingText": [
+        "grid-axis"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "grid-template-masonry",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-template-masonry",
+        "title": "Masonry Layout",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "running-position",
+      "href": "https://drafts.csswg.org/css-grid-3/#running-position",
+      "linkingText": [
+        "running position"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "masonry-layout-algorithm",
+        "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout-algorithm",
+        "title": "Masonry Layout Algorithm",
+        "number": "2.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "propdef-masonry-auto-flow",
+      "href": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-auto-flow",
+      "linkingText": [
+        "masonry-auto-flow"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "masonry-auto-flow",
+        "href": "https://drafts.csswg.org/css-grid-3/#masonry-auto-flow",
+        "title": "The masonry-auto-flow Property",
+        "number": "2.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "masonry-box",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-box",
+      "linkingText": [
+        "masonry box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "alignment",
+        "href": "https://drafts.csswg.org/css-grid-3/#alignment",
+        "title": "Alignment and Spacing",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

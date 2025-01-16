@@ -1,0 +1,242 @@
+{
+  "spec": {
+    "title": "CSS Backgrounds Module Level 4",
+    "url": "https://drafts.csswg.org/css-backgrounds-4/"
+  },
+  "dfns": [
+    {
+      "id": "propdef-background-position",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position",
+      "linkingText": [
+        "background-position"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-background-position",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-background-position",
+        "title": "Background Positioning: the background-position shorthand property",
+        "number": "2.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "typedef-bg-position",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-bg-position",
+      "linkingText": [
+        "<bg-position>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-background-position",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-background-position",
+        "title": "Background Positioning: the background-position shorthand property",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "propdef-background-position-x",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-x",
+      "linkingText": [
+        "background-position-x"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-position-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
+        "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
+        "number": "2.1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-position-y",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-y",
+      "linkingText": [
+        "background-position-y"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-position-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
+        "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
+        "number": "2.1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-position-inline",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-inline",
+      "linkingText": [
+        "background-position-inline"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-position-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
+        "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
+        "number": "2.1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-position-block",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position-block",
+      "linkingText": [
+        "background-position-block"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-position-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
+        "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
+        "number": "2.1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-clip",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-clip",
+      "linkingText": [
+        "background-clip"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-clip",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
+        "title": "Painting Area: the background-clip property",
+        "number": "2.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "background-painting-area",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#background-painting-area",
+      "linkingText": [
+        "background painting area"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-clip",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
+        "title": "Painting Area: the background-clip property",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-bg-clip",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-bg-clip",
+      "linkingText": [
+        "<bg-clip>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-clip",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
+        "title": "Painting Area: the background-clip property",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "valdef-background-clip-text",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-text",
+      "linkingText": [
+        "text"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-clip",
+        "<bg-clip>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-clip",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
+        "title": "Painting Area: the background-clip property",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-background-clip-border",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border",
+      "linkingText": [
+        "border"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-clip",
+        "<bg-clip>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-clip",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
+        "title": "Painting Area: the background-clip property",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-background-tbd",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-tbd",
+      "linkingText": [
+        "background-tbd"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-layers",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-layers",
+        "title": "Background Image Layers: the background-tbd shorthand property",
+        "number": "2.3"
+      },
+      "definedIn": "table"
+    }
+  ]
+}

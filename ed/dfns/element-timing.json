@@ -1,0 +1,341 @@
+{
+  "spec": {
+    "title": "Element Timing API",
+    "url": "https://wicg.github.io/element-timing/"
+  },
+  "dfns": [
+    {
+      "id": "performanceelementtiming",
+      "href": "https://wicg.github.io/element-timing/#performanceelementtiming",
+      "linkingText": [
+        "PerformanceElementTiming"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performance-element-timing",
+        "href": "https://wicg.github.io/element-timing/#sec-performance-element-timing",
+        "title": "PerformanceElementTiming interface",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-rendertime",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-rendertime",
+      "linkingText": [
+        "renderTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-loadtime",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-loadtime",
+      "linkingText": [
+        "loadTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-intersectionrect",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-intersectionrect",
+      "linkingText": [
+        "intersectionRect"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-identifier",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-identifier",
+      "linkingText": [
+        "identifier"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-naturalwidth",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-naturalwidth",
+      "linkingText": [
+        "naturalWidth"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-naturalheight",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-naturalheight",
+      "linkingText": [
+        "naturalHeight"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-id",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-element",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-element",
+      "linkingText": [
+        "element"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-url",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-url",
+      "linkingText": [
+        "url"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performanceelementtiming-tojson",
+      "href": "https://wicg.github.io/element-timing/#dom-performanceelementtiming-tojson",
+      "linkingText": [
+        "toJSON()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PerformanceElementTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "request",
+      "href": "https://wicg.github.io/element-timing/#request",
+      "linkingText": [
+        "request"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "element",
+      "href": "https://wicg.github.io/element-timing/#element",
+      "linkingText": [
+        "element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://wicg.github.io/element-timing/#title",
+        "title": "Element Timing API"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-element-elementtiming",
+      "href": "https://wicg.github.io/element-timing/#dom-element-elementtiming",
+      "linkingText": [
+        "elementTiming"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Element"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-modifications-DOM",
+        "href": "https://wicg.github.io/element-timing/#sec-modifications-DOM",
+        "title": "Modifications to the DOM specification",
+        "number": "3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "report-element-timing",
+      "href": "https://wicg.github.io/element-timing/#report-element-timing",
+      "linkingText": [
+        "report element timing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-report-element-timing",
+        "href": "https://wicg.github.io/element-timing/#sec-report-element-timing",
+        "title": "Report Element Timing",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "report-image-element-timing",
+      "href": "https://wicg.github.io/element-timing/#report-image-element-timing",
+      "linkingText": [
+        "report image element timing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-report-image-element",
+        "href": "https://wicg.github.io/element-timing/#sec-report-image-element",
+        "title": "Report Image Element Timing",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "report-text-element-timing",
+      "href": "https://wicg.github.io/element-timing/#report-text-element-timing",
+      "linkingText": [
+        "report text element timing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-report-text",
+        "href": "https://wicg.github.io/element-timing/#sec-report-text",
+        "title": "Report Text Element Timing",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}
