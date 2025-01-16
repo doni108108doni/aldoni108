@@ -1,0 +1,73 @@
+{
+  "spec": {
+    "title": "CSS Form Styling Module Level 1",
+    "url": "https://drafts.csswg.org/css-forms-1/"
+  },
+  "links": {
+    "rawlinks": {
+      "http://blog.teamtreehouse.com/use-meter-progress-elements": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
+      "https://drafts.csswg.org/css-content-3/": {},
+      "https://drafts.csswg.org/css-pseudo-4/": {},
+      "https://drafts.csswg.org/css-ui-4/": {},
+      "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/selectors/": {},
+      "https://html.spec.whatwg.org/multipage/": {}
+    },
+    "autolinks": {
+      "https://drafts.csswg.org/css-backgrounds-3/": {
+        "anchors": [
+          "propdef-background"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "propdef-color"
+        ]
+      },
+      "https://drafts.csswg.org/css-content-3/": {
+        "anchors": [
+          "propdef-content"
+        ]
+      },
+      "https://drafts.csswg.org/css-pseudo-4/": {
+        "anchors": [
+          "element-backed",
+          "selectordef-after",
+          "selectordef-before"
+        ]
+      },
+      "https://drafts.csswg.org/css-ui-4/": {
+        "anchors": [
+          "base-appearance",
+          "propdef-appearance"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-4/": {
+        "anchors": [
+          "typedef-ident",
+          "mult-one-plus"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "originating-element",
+          "checked-pseudo"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/form-elements.html": {
+        "anchors": [
+          "the-select-element",
+          "the-option-element"
+        ]
+      },
+      "https://www.w3.org/TR/css-pseudo-4/": {
+        "anchors": [
+          "tree-abiding"
+        ]
+      }
+    }
+  }
+}
